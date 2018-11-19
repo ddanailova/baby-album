@@ -1,0 +1,41 @@
+
+.site-header {
+    padding-top: $main-top-wsp;
+    // border-bottom: 1px solid black;
+}
+
+.site-branding {
+    position: relative;
+    text-align: center;
+
+    p {
+        padding: 0;
+    }
+
+    a {
+        text-decoration: none;
+        color:$highlight-color;
+    }
+
+    @at-root {
+        & .site-title {
+            font-size: 1.999em;
+            font-family: Georgia, serif; //'Righteous'
+            font-weight: bold;
+        }
+
+        & .site-desc{
+
+        }
+
+        & .site-gender {
+            position: absolute;
+            top: 100%;
+            right: 0;
+            transform: translateY(-100%);
+        }
+    }
+}
+h1 {
+    animation: slideLeft 1s ease 1 both;
+}

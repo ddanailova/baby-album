@@ -1,0 +1,61 @@
+.main-nav {
+    position: fixed;
+    top: 50%;
+    left: 1rem;
+
+    & ul {
+        padding: 0;
+        transform: translateY(-50%);
+    }
+
+    & ul li {
+        list-style: none;
+        width: 9rem;
+        display: block;
+
+        & a {
+            text-decoration: none;
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        &.fas,
+        &.fab,
+        &.far,
+            {
+            width: 3rem;
+        }
+
+        & .fas:before,
+        & .fab:before,
+        & .far:before {
+            width: 3rem;
+            padding: 0.5rem;
+            margin-right: 0.5rem;
+            color: $highlight-color;
+            border-bottom: 2px solid $highlight-color;
+            border-left: 2px solid $highlight-color;
+            border-right: 2px solid $highlight-color;
+            z-index:-90;
+        }
+
+        & a:nth-child(2){
+            opacity: 0;
+            pointer-events: none;
+            
+        }
+        & .fas:hover + a,
+        & .fab:hover + a,
+        & .far:hover + a {
+            opacity: 1;
+            pointer-events: all;
+            animation: slideLeft 1s ease-out 1 both;
+        }
+
+        &:nth-child(1) .fab:before {
+            border-top: 2px solid $highlight-color;
+        }
+
+    }
+}

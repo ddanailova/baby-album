@@ -17,6 +17,7 @@ html {
 
 body, table, th, td, form, input, textarea, option, select {
     font: inherit;
+    color:#333;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -24,12 +25,14 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 0.5em;
 }
 
-$headings: (h1:2.441em,h2:1.953em,h3:1.563em,h4:1.25em,h5:1em,h6:1em);
+$headings: (h1:3.998em,h2:2.827em,h3:1.999em,h4:1.414em,h5:1em,h6:1em);
 
 @each $heading, $size in $headings {
     #{$heading}{font-size:$size}
 }
-
+h1{
+    font-family:  Georgia, serif; //'Righteous'
+}
 h6 { font-weight: bold;}
 p, ul, ol{
     padding-bottom: 1.5em;
