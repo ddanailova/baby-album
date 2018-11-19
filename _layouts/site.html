@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css">
+</head>
+<body>
+    <div class="site">
+        <header class="site-header">
+            <div class="site-branding">
+                <p class="site-title"><a href="{{ site.baseurl }}/">My {{ site.title }}</a></p>
+                <p class="site-desc"><a href="{{ site.baseurl }}/login">Join me,</a> and {{ site.description}}!</p>
+                <ul>
+                    <li><a href="#">Boy</a></li>
+                    <li><a href="#">Girl</a></li>
+                </ul>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="{{ site.baseurl }}/">Blog</a></li>
+                    <li><a href="{{ site.baseurl }}/about">About</a></li>
+                    <li><a href="{{ site.baseurl }}/gallery">Gallery</a></li>
+                    <li><a href="{{ site.baseurl }}/events">Events</a></li>
+                    <li><a href="{{ site.baseurl }}/login">Login</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="site-content">
+                {{content}}
+        </main>
+        <footer class="site-footer"></footer>
+    </div>
+</body>
+</html>

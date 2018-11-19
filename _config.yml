@@ -1,0 +1,26 @@
+title: Baby Album
+email: d.k.danailova@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  let's discover the world together
+
+baseurl: "/baby-album" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+destination: "docs"
+twitter_username: 
+github_username:  ddanailova
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - .gitignore
+  - scss
+  - gulpfile.js
+  - package.json
+  - package-lock.json
