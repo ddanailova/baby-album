@@ -33,6 +33,19 @@
             top: 100%;
             right: 0;
             transform: translateY(-100%);
+
+            @at-root {
+                .gender-toggle{
+                    cursor: pointer;
+                    &.boy{
+                        color:rgb(80, 127, 255);
+                    }
+                    &.girl{
+                        color:coral;
+                    }
+                }
+            }
         }
     }
 }
+

@@ -8,9 +8,12 @@
     <title>{{ site.title }}</title>
     <link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="{{ site.baseurl}}/scripts/scripts.js"></script>
 </head>
 
-<body>
+<body onload="toggleGender()">
+    <input type="checkbox" id="gender-main-toggle-boy" name="gender-main-toggle-boy">
+    <input type="checkbox" id="gender-main-toggle-girl" name="gender-main-toggle-girl">
     <div class="site">
         <header class="site-header">
             <div class="site-branding">
@@ -18,17 +21,17 @@
                 <p class="site-desc"><a href="{{ site.baseurl }}/login">Join me</a> and {{ site.description}}!</p>
             
                 <div class='site-gender'>
-                    <p><a href="#">Boy</a> / <a href="#">Girl</a></p>
+                    <p><label class="gender-toggle boy" for="gender-main-toggle-boy">Boy</label> / <label class="gender-toggle girl" for="gender-main-toggle-girl">Girl</label></p>
                 </div>
             </div>
 
             <nav class="main-nav">
                 <ul>
-                    <li><a href="{{ site.baseurl }}/"class="fab fa-gratipay"></a><a>Blog</a></li>
-                    <li><a href="{{ site.baseurl }}/about" class="fas fa-user-circle"></a><a>About</a></li>
-                    <li><a href="{{ site.baseurl }}/gallery" class="fas fa-camera"></a><a>Gallery</a></li>
-                    <li><a href="{{ site.baseurl }}/events" class="far fa-calendar-alt"></a><a>Events</a></li>
-                    <li><a href="{{ site.baseurl }}/login" class="fas fa-fingerprint"></a><a>Login</a></li>
+                    <li><a href="{{ site.baseurl }}/"class="fab fa-gratipay"></a><span>Blog</span></li>
+                    <li><a href="{{ site.baseurl }}/about" class="fas fa-user-circle"></a><span>About</span></li>
+                    <li><a href="{{ site.baseurl }}/gallery" class="fas fa-camera"></a><span>Gallery</span></li>
+                    <li><a href="{{ site.baseurl }}/events" class="far fa-calendar-alt"></a><span>Events</span></li>
+                    <li><a href="{{ site.baseurl }}/login" class="fas fa-fingerprint"></a><span>Login</span></li>
                 </ul>
             </nav>
         </header>
