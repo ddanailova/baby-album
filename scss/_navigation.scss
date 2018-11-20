@@ -40,9 +40,9 @@
             font-size: $nav-icon-size;
             color: $highlight-color;
             background: white;
-            border-bottom: 2px solid $highlight-color;
-            border-left: 2px solid $highlight-color;
-            border-right: 2px solid $highlight-color;
+            border-bottom: $highlight-border;
+            border-left: $highlight-border;
+            border-right: $highlight-border;
         }
 
         & .fas:hover:before,
@@ -68,7 +68,7 @@
         }
 
         &:nth-child(1) .fab:before {
-            border-top: 2px solid $highlight-color;
+            border-top: $highlight-border;
         }
 
     }
@@ -96,7 +96,7 @@
         & .fas:before,
         & .fab:before,
         & .far:before {
-            border: 2px solid $highlight-color;
+            border: $highlight-border;
             margin-right: 0;
         }
     }

@@ -1,0 +1,196 @@
+.animation-container {
+    position: relative;
+    width: 100%;
+    height:$main-top-wsp * 15;
+    background: #1e113D; //#12113D;
+    margin: 0 auto;
+}
+
+.luna {
+    width: 18rem;
+    height: 18rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+    background: white;
+}
+
+.luna::before {
+    display: block;
+    content: "";
+    width: 17rem;
+    height: 17rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+    border-radius: 100%;
+    background: #1e113D; 
+    border-left: 1rem solid lightgray;
+}
+
+.star1,
+.star2,
+.star3,
+.star4,
+.star5,
+.star6,
+.star7,
+.star8,
+.star9 {
+    position: absolute;
+    width: 0.2rem;
+    height: 1.3rem;
+    border-radius: 100%;
+    background: white;
+}
+
+.star1 {
+    top: 45%;
+    left: 40%;
+    transform: scale(0.9)
+}
+
+.star2 {
+    top:50%;
+    left: 7%;
+    transform: scale(0.7)
+}
+
+.star3 {
+    top: 50%;
+    left:90%;
+    transform: scale(0.5)
+}
+
+.star4 {
+    top: 8%;
+    left: 50%;
+    transform: scale(0.7)
+}
+
+.star5 {
+    top: 22%;
+    left: 15%;
+    transform: scale(0.6)
+}
+
+.star6 {
+    top: 90%;
+    left: 50%;
+    transform: scale(0.9)
+}
+
+.star7 {
+    top: 75%;
+    left: 18%;
+    transform: scale(0.6)
+}
+
+.star8 {
+    top: 25%;
+    left: 80%;
+    transform: scale(0.6)
+}
+
+.star9 {
+    top: 76%;
+    left: 83%;
+    transform: scale(0.7)
+}
+
+.star1::before,
+.star2::before,
+.star3::before,
+.star4::before,
+.star5::before,
+.star6::before,
+.star7::before,
+.star8::before,
+.star9::before {
+    content: "";
+    position: absolute;
+    width: 1.2rem;
+    height: 0.2rem;
+    border-radius: 100%;
+    background: white;
+    margin: 0.5rem -0.5rem;
+}
+
+.star1,
+.star3,
+.star5,
+.star7,
+.star9 {
+    animation: glow 3s alternate infinite;
+}
+
+.star2,
+.star4,
+.star6,
+.star8 {
+    animation: glow 3s alternate infinite;
+}
+
+.star-conteiner {
+    position: absolute;
+    top:22%;  left:62%;
+    width: 0.2rem;
+    height: 5rem;
+    background: rgb(80, 127, 255);
+    animation: swing 1s ease-in-out alternate infinite;
+}
+
+.fa-star {
+    font-size: 8rem;
+    color: rgb(255, 250, 70);
+    position: absolute;
+    top: 2.7rem;
+    right: -4.3rem;
+}
+
+.eyes1,
+.eyes2 {
+    position: absolute;
+    top: 2.9rem;
+    left: 2.3rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 1rem 1rem 0 0;
+    border-top: 0.3rem solid black;
+    z-index: 111;
+    animation: sleep 2s ease alternate infinite both;
+}
+
+.eyes1 {
+    margin: 2rem 1rem;
+}
+
+.eyes2 {
+    margin: 2rem 2.5rem;
+}
+
+.cheeks1,
+.cheeks2 {
+    position: absolute;
+    top: 8.6rem;
+    left: 2.6rem;
+    width: 1rem;
+    height: 1.1rem;
+    background: coral;
+    border-radius: 100%;
+    z-index: 333;
+    animation: sleep 2s ease alternate infinite both;
+}
+
+.cheeks1 {
+    transform: rotate(-50deg);
+    margin: -2.8rem 0;
+}
+
+.cheeks2 {
+    transform: rotate(50deg);
+    margin: -2.8rem 3rem;
+}

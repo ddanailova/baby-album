@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ site.title }}</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="{{ site.baseurl}}/scripts/scripts.js"></script>
+</head>
+<body class="{% if page.type %}{{ page.type }}{% endif %} {% if page.title %}{{ page.title | slugify }}{% else %} home {% endif %}" onload="toggleGender()">
+    <input type="checkbox" id="gender-main-toggle-boy" name="gender-main-toggle-boy">
+    <input type="checkbox" id="gender-main-toggle-girl" name="gender-main-toggle-girl">
+    <div class="site">
+        <header class="site-header">
+            <div class="site-branding">
+                <p class="site-title"><a href="{{ site.baseurl }}/">My {{ site.title }}</a></p>
+                <p class="site-desc"><a href="{{ site.baseurl }}/login">Join me</a> and {{ site.description}}!</p>
+
+                <div class='site-gender'>
+                    <p><label class="gender-toggle boy" for="gender-main-toggle-boy">Boy</label> / <label class="gender-toggle girl"
+                            for="gender-main-toggle-girl">Girl</label></p>
+                </div>
+            </div>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="{{ site.baseurl }}/" class="fab fa-gratipay"></a><span>Blog</span></li>
+                    <li><a href="{{ site.baseurl }}/about" class="fas fa-user-circle"></a><span>About</span></li>
+                    <li><a href="{{ site.baseurl }}/gallery" class="fas fa-camera"></a><span>Gallery</span></li>
+                    <li><a href="{{ site.baseurl }}/events" class="far fa-calendar-alt"></a><span>Events</span></li>
+                    <li><a href="{{ site.baseurl }}/login" class="fas fa-fingerprint"></a><span>Login</span></li>
+                </ul>
+            </nav>
+        </header>

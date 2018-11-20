@@ -11,223 +11,113 @@
             width: 60%;
             margin: ($main-top-wsp*4) auto;
             display: flex;
-            box-shadow: 0 0 0.5rem 0 rgba(black,0.3);
-
+            box-shadow: 0 0 0.5rem 0 rgba(black, 0.3);
             .form-animation {
                 flex: 1 0 50%;
-
-                .container {
-                    position: relative;
-                    width: 100%;
-                    height: ($main-top-wsp*15);
-                    background: #1e113D; //#12113D;
-                    margin: 0 auto;
-                }
-
-                .luna {
-                    width: 18rem;
-                    height: 18rem;
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate(-50%, -50%);
-                    border-radius: 100%;
-                    background: white;
-                }
-
-                .luna::before {
-                    display: block;
-                    content: "";
-                    width: 17rem;
-                    height: 17rem;
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate(-40%, -50%);
-                    border-radius: 100%;
-                    background: #1e113D; 
-                    border-left: 1rem solid lightgray;
-                }
-
-                .star1,
-                .star2,
-                .star3,
-                .star4,
-                .star5,
-                .star6,
-                .star7,
-                .star8,
-                .star9 {
-                    position: absolute;
-                    width: 0.2rem;
-                    height: 1.3rem;
-                    border-radius: 100%;
-                    background: white;
-                }
-
-                .star1 {
-                    top: 45%;
-                    left: 40%;
-                    transform: scale(0.9)
-                }
-
-                .star2 {
-                    top:50%;
-                    left: 7%;
-                    transform: scale(0.7)
-                }
-
-                .star3 {
-                    top: 50%;
-                    left:90%;
-                    transform: scale(0.5)
-                }
-
-                .star4 {
-                    top: 8%;
-                    left: 50%;
-                    transform: scale(0.7)
-                }
-
-                .star5 {
-                    top: 22%;
-                    left: 15%;
-                    transform: scale(0.6)
-                }
-
-                .star6 {
-                    top: 90%;
-                    left: 50%;
-                    transform: scale(0.9)
-                }
-
-                .star7 {
-                    top: 75%;
-                    left: 18%;
-                    transform: scale(0.6)
-                }
-
-                .star8 {
-                    top: 25%;
-                    left: 80%;
-                    transform: scale(0.6)
-                }
-
-                .star9 {
-                    top: 76%;
-                    left: 83%;
-                    transform: scale(0.7)
-                }
-
-                .star1::before,
-                .star2::before,
-                .star3::before,
-                .star4::before,
-                .star5::before,
-                .star6::before,
-                .star7::before,
-                .star8::before,
-                .star9::before {
-                    content: "";
-                    position: absolute;
-                    width: 1.2rem;
-                    height: 0.2rem;
-                    border-radius: 100%;
-                    background: white;
-                    margin: 0.5rem -0.5rem;
-                }
-
-                .star1,
-                .star3,
-                .star5,
-                .star7,
-                .star9 {
-                    animation: glow 3s alternate infinite;
-                }
-
-                .star2,
-                .star4,
-                .star6,
-                .star8 {
-                    animation: glow 3s alternate infinite;
-                }
-
-                .star-conteiner {
-                    position: absolute;
-                    top:22%;  left:62%;
-                    width: 0.2rem;
-                    height: 5rem;
-                    background: $highlight-color-b;
-                    animation: swing 1s ease-in-out alternate infinite;
-                }
-
-                .fa-star {
-                    font-size: 8rem;
-                    color: rgb(255, 250, 70);
-                    position: absolute;
-                    top: 2.7rem;
-                    right: -4.3rem;
-                }
-
-                .eyes1,
-                .eyes2 {
-                    position: absolute;
-                    top: 2.9rem;
-                    left: 2.3rem;
-                    width: 1rem;
-                    height: 1rem;
-                    border-radius: 1rem 1rem 0 0;
-                    border-top: 0.3rem solid black;
-                    z-index: 111;
-                    animation: sleep 2s ease alternate infinite both;
-                }
-
-                .eyes1 {
-                    margin: 2rem 1rem;
-                }
-
-                .eyes2 {
-                    margin: 2rem 2.5rem;
-                }
-
-                .cheeks1,
-                .cheeks2 {
-                    position: absolute;
-                    top: 8.6rem;
-                    left: 2.6rem;
-                    width: 1rem;
-                    height: 1.1rem;
-                    background: $highlight-color-g;
-                    border-radius: 100%;
-                    z-index: 333;
-                    animation: sleep 2s ease alternate infinite both;
-                }
-
-                .cheeks1 {
-                    transform: rotate(-50deg);
-                    margin: -2.8rem 0;
-                }
-
-                .cheeks2 {
-                    transform: rotate(50deg);
-                    margin: -2.8rem 3rem;
-                }
             }
 
             form {
                 flex: 1 0 50%;
-                background: white;
-                display:flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                z-index:101;
             }
+        }
+    }
+}
 
-            fieldset, legend {
-                border:none;
-            }
-            
+form {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 101;
+
+    fieldset,
+    legend {
+        border: none;
+    }
+
+    legend {
+        font-family: Georgia, Times, serif;
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: $main-top-wsp;
+    }
+
+    p {
+        padding: 0;
+    }
+
+    label,
+    input[type="submit"] {
+        text-transform: uppercase;
+        font-weight: bold;
+        color: rgba(#333, 0.7);
+        font-size: 0.9rem;
+    }
+
+    input {
+        display: block;
+        margin: 0.5rem 0;
+        padding: 0.5rem 1rem;
+        border: none;
+        outline: none;
+        background: rgba(#333, 0.1);
+        border-bottom: 2px solid $highlight-color;
+    }
+
+    input[type="submit"] {
+        margin: 0 auto;
+        margin-top: $main-top-wsp;
+        padding: 0.5rem 2rem;
+        background: $highlight-color;
+        color: white;
+        border: $highlight-border;
+        border-radius: 3rem;
+        transition: color 0.3s ease, background 0.6s ease;
+
+        &:hover,
+        &:active,
+        &:focus {
+            background: white;
+            color: $highlight-color;
+        }
+    }
+}
+
+#main-register-toggle {
+    display: none;
+
+    &:checked+.form-wrapper.register {
+        display: none;
+    }
+}
+
+.form-wrapper.register {
+    background:wheat;
+    width: 16rem;
+    position: fixed;
+    top: 2rem;
+    left: 70rem;
+    
+
+    .form-inner {
+        width: 100%;
+        position: relative;
+        flex-direction: colum;
+        margin: 1rem 0;
+
+        .register-toggle.close {
+            position: absolute;
+            top: 0;
+            right: 0.5rem;
+            font-size: 1.5rem;
+            color: $highlight-color;
+            z-index: 1000;
+        }
+
+        form {
+            margin: $main-top-wsp auto;
+            flex:1 0 100%;
         }
     }
 }
