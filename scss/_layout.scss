@@ -1,10 +1,18 @@
-
 .site {
-    padding: 0 10rem;
+    padding: 0 $main-side-wsp;
 
-    .site-content{
+    @at-root .site-content {
         text-align: center;
         padding: $main-top-wsp 0;
+
+        h1, h2 {
+            animation: slideLeft 0.8s ease 1 both;
         }
+    }
 }
 
+@media screen and (max-width:760px){
+    .site {
+        padding: 0 2rem;
+    }
+}

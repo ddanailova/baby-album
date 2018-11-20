@@ -10,34 +10,44 @@
 
     & ul li {
         list-style: none;
-        width: 9rem;
+        width: $main-side-wsp - 1rem;
         display: block;
+        animation: slideLeft 1s ease-out 1 both;
 
         & a {
             text-decoration: none;
             text-align: center;
-            font-size: 1.5rem;
+            text-transform: uppercase;
             font-weight: bold;
         }
 
-        &.fas,
-        &.fab,
-        &.far,
-            {
-            width: 3rem;
+        & .fas,
+        & .fab,
+        & .far {
+        
         }
 
         & .fas:before,
         & .fab:before,
         & .far:before {
-            width: 3rem;
-            padding: 0.5rem;
+            $nav-icon-size:2rem;
+            width: ($main-side-wsp - 2rem )/2;
+            padding:1rem $nav-icon-size/4;
+            vertical-align: middle;
             margin-right: 0.5rem;
+            font-size: $nav-icon-size;
             color: $highlight-color;
             border-bottom: 2px solid $highlight-color;
             border-left: 2px solid $highlight-color;
             border-right: 2px solid $highlight-color;
-            z-index:-90;
+        }
+
+        & .fas:hover:before,
+        & .fab:hover:before,
+        & .far:hover:before{
+            color:white;
+            background: $highlight-color;
+            transition: color 0.3s ease, background 0.6s ease;
         }
 
         & a:nth-child(2){
@@ -57,5 +67,32 @@
             border-top: 2px solid $highlight-color;
         }
 
+    }
+}
+
+@media screen and (max-width:760px){
+    .main-nav {
+        min-width:70%;
+        position:relative;
+        top: $main-top-wsp*2;
+        left:0;
+        margin: 0 auto;
+        & ul {
+            transform: translateY(-50%);
+            display: flex;
+            justify-content: space-between;
+        }
+
+        & ul li{
+            width: ($main-side-wsp - 2rem )/2;
+            text-align: center;
+        }
+
+        & .fas:before,
+        & .fab:before,
+        & .far:before{
+            border: 2px solid $highlight-color;
+            margin-right: 0;
+        }
     }
 }
