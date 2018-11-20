@@ -2,6 +2,7 @@
     position: fixed;
     top: 50%;
     left: 1rem;
+    z-index: 102;
 
     & ul {
         padding: 0;
@@ -38,6 +39,7 @@
             margin-right: 0.5rem;
             font-size: $nav-icon-size;
             color: $highlight-color;
+            background: white;
             border-bottom: 2px solid $highlight-color;
             border-left: 2px solid $highlight-color;
             border-right: 2px solid $highlight-color;
