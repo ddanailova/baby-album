@@ -45,6 +45,9 @@
             border-right: $highlight-border;
         }
 
+        & .fas:focus:before,
+        & .fab:focus:before,
+        & .far:focus:before,
         & .fas:hover:before,
         & .fab:hover:before,
         & .far:hover:before {
@@ -59,6 +62,9 @@
 
         }
 
+        & .fas:focus+span,
+        & .fab:focus+span,
+        & .far:focus+span,
         & .fas:hover+span,
         & .fab:hover+span,
         & .far:hover+span {

@@ -11,7 +11,7 @@
             width: 60%;
             margin: ($main-top-wsp*4) auto;
             display: flex;
-            box-shadow: 0 0 0.5rem 0 rgba(black, 0.3);
+            box-shadow: 0 0 0.5rem 0 rgba(black, 0.4);
             .form-animation {
                 flex: 1 0 50%;
             }
@@ -47,8 +47,7 @@ form {
         padding: 0;
     }
 
-    label,
-    input[type="submit"] {
+    label{
         text-transform: uppercase;
         font-weight: bold;
         color: rgba(#333, 0.7);
@@ -64,24 +63,6 @@ form {
         background: rgba(#333, 0.1);
         border-bottom: 2px solid $highlight-color;
     }
-
-    input[type="submit"] {
-        margin: 0 auto;
-        margin-top: $main-top-wsp;
-        padding: 0.5rem 2rem;
-        background: $highlight-color;
-        color: white;
-        border: $highlight-border;
-        border-radius: 3rem;
-        transition: color 0.3s ease, background 0.6s ease;
-
-        &:hover,
-        &:active,
-        &:focus {
-            background: white;
-            color: $highlight-color;
-        }
-    }
 }
 
 #main-register-toggle {
@@ -89,23 +70,27 @@ form {
 
     &:checked+.form-wrapper.register {
         display: none;
+        opacity: 0;
+        pointer-events: none;
     }
 }
 
 .form-wrapper.register {
-    background:wheat;
-    width: 16rem;
+    background:white;
     position: fixed;
-    top: 2rem;
-    left: 70rem;
-    
+    top: calc(100vh - 34rem);
+    right:1rem;
+    bottom:1rem;
+    left: calc(100vw - 17rem);
+    opacity: 1;
+    pointer-events: all;
+    animation: slideBottom 0.3s ease-in 1 both;
 
     .form-inner {
         width: 100%;
         position: relative;
         flex-direction: colum;
-        margin: 1rem 0;
-
+        margin: 0;
         .register-toggle.close {
             position: absolute;
             top: 0;
