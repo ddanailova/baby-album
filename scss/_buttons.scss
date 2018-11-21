@@ -17,5 +17,6 @@
         &:focus {
             background: white;
             color: $highlight-color;
+            outline:none;
         }
     }

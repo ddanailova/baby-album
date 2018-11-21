@@ -6,12 +6,12 @@
 }
 
 #gender-main-toggle-girl:checked+.site {
-    $highlight-color: $highlight-color-g global;
+    $highlight-color: #{$highlight-color-g};
     background: rgb(253, 216, 230);
 }
 
 #gender-main-toggle-boy:checked+#gender-main-toggle-girl+.site {
-    $highlight-color: $highlight-color-b global;
+    $highlight-color: #{$highlight-color-b};
     background: lightblue;
 }
 

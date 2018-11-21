@@ -10,14 +10,26 @@
     }
 }
 
-@keyframes slideBottom {
+@keyframes slideBottomOut {
     from {
         opacity: 0;
         transform: translateY(10rem);
 
     }
     to{
+        opacity:  1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideBottomIn {
+    from {
         opacity: 1;
+        transform: translateY(-10rem);
+
+    }
+    to{
+        opacity:  0;
         transform: translateY(0);
     }
 }

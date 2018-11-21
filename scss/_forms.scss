@@ -12,6 +12,7 @@
             margin: ($main-top-wsp*4) auto;
             display: flex;
             box-shadow: 0 0 0.5rem 0 rgba(black, 0.4);
+
             .form-animation {
                 flex: 1 0 50%;
             }
@@ -47,7 +48,7 @@ form {
         padding: 0;
     }
 
-    label{
+    label {
         text-transform: uppercase;
         font-weight: bold;
         color: rgba(#333, 0.7);
@@ -65,33 +66,23 @@ form {
     }
 }
 
-#main-register-toggle {
-    display: none;
-
-    &:checked+.form-wrapper.register {
-        display: none;
-        opacity: 0;
-        pointer-events: none;
-    }
-}
-
 .form-wrapper.register {
-    background:white;
+    background: white;
     position: fixed;
     top: calc(100vh - 34rem);
-    right:1rem;
-    bottom:1rem;
+    right: 1rem;
+    bottom: 1rem;
     left: calc(100vw - 17rem);
-    opacity: 1;
-    pointer-events: all;
-    animation: slideBottom 0.3s ease-in 1 both;
+    opacity: 0;
+    pointer-events: none;
 
     .form-inner {
         width: 100%;
         position: relative;
         flex-direction: colum;
         margin: 0;
-        .register-toggle.close {
+
+        .close-toggle {
             position: absolute;
             top: 0;
             right: 0.5rem;
@@ -102,7 +93,42 @@ form {
 
         form {
             margin: $main-top-wsp auto;
-            flex:1 0 100%;
+            flex: 1 0 100%;
         }
     }
+}
+
+#main-register-toggle {
+    display: none;
+}
+
+#main-register-toggle + .register-toggle{
+    position: fixed;
+    top: calc(100vh - 5rem);
+    right: 1rem;
+}
+
+#main-register-toggle:checked + .register-toggle {
+    position: absolute;
+    top: calc(100vh - 33.5rem);
+    right: 2rem;
+    z-index:1001;
+
+    & span {
+        display: none;
+    }
+    &:before {
+        display: block;
+        content: 'X';
+        font-size:1.5rem;
+        color: $highlight-color;
+        background: white;
+        animation: slideBottomOut 0.3s ease-in 1 both;
+    }
+}
+
+#main-register-toggle:checked+.register-toggle+.form-wrapper.register {
+    opacity: 1;
+    animation: slideBottomOut 0.3s ease-in 1 both;
+    pointer-events: all;
 }
