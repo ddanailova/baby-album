@@ -3,59 +3,68 @@ layout: site
 ---
 <h1>Hello World!</h1>
 
-<section class="about">
-  <h3>My name is Lilly</h3>
-  <p>
-Hello! My name is Lilly and I am a fictional character. My sole purpose is inhabiting this blog and giving it life. Some of the lines that you will read here will make no sense to you but don't worry there is a reason for that. See, in my world, we don't use the same words that you do. Like in every foreign country you visit it take you some time to adjust and start understanding the people around you. In my world, it is the same. The more you look the more meaning you will find and the more you will understand about my habitat. But is I was a real, I would also be a good person so let me give you a few advises. Start with the titles, the pictures, the buttons, all the things that are already familiar. Once you feel more comfortable try reading the text more carefully and if you start seeing the meaning it is because you have crossed the border and you are now in my world. If I was a real person, I would be a curious one, so don't worry and let's explore together!
-  </p>
-  <div class="read-more"><a href="{{ site.baseurl }}/about">More About me</a></div>
+<section class="about text-conteiner">
+  <article class="text-conteiner">
+    <h2>My name is Lilly</h2>
+    <p>
+      Hello! My name is Lilly and I am a fictional character. My sole purpose is inhabiting this blog and giving it
+      life. Some of the lines that you will read here will make no sense to you but don't worry, there is a reason for
+      that. See, in my world, we don't use the same words that you do. Like in every foreign country you visit it takes
+      you some time to adjust and start understanding the people around you. My world, it is exactly the same. The more
+      you look, the more meaning you will find and the more you will start understanding my habitat. If I was a real
+      person, I would be a good person so let me give you a few advises. Start with the big things like the titles, the
+      pictures, the buttons, all the things that look familiar. Once you feel more comfortable try reading the text
+      more carefully and if you start seeing the meaning it is because you have crossed the border and you are now in
+      my world. If I was a real person, I would also be a curious one, so don't worry and let's explore together!
+    </p>
+    <div class="fas fa-chevron-left"><a href="{{ site.baseurl }}/about" class="read-more button">More About me</a></div>
+  </article>
 </section>
 
 <section class="gallery">
-    <div class="media">
-        <img src="{{ site.baseurl }}/images/image09.jpg" alt="Baby">
-    </div>
-    <div class="media">
-        <img src="{{ site.baseurl }}/images/image05.jpg" alt="Baby">
-    </div>
-    <div class="media">
-        <img src="{{ site.baseurl }}/images/image07.jpg" alt="Baby">
-    </div>
-    <div class="media">
-        <img src="{{ site.baseurl }}/images/image10.jpg" alt="Baby">
-    </div>
-  <div class="read-more"><a href="{{ site.baseurl }}/gallery">More Pictures</a></div>
+  <div class="media">
+    <img src="{{ site.baseurl }}/images/image09.jpg" alt="Baby">
+  </div>
+  <div class="media">
+    <img src="{{ site.baseurl }}/images/image05.jpg" alt="Baby">
+  </div>
+  <div class="media">
+    <img src="{{ site.baseurl }}/images/image07.jpg" alt="Baby">
+  </div>
+  <div class="media">
+    <img src="{{ site.baseurl }}/images/image10.jpg" alt="Baby">
+  </div>
+  <div class="fas fa-chevron-left"><a href="{{ site.baseurl }}/gallery" class="read-more button">More Pictures</a></div>
 </section>
 
 <section class="posts">
-    <ul class="listing">
-  
-      {% for post in site.posts limit:5 %}
-      <li>
-          <a href="{{site.baseurl}}{{ post.url }}">
-            <span class="title">{{ post.title }}</span>
-            <span class="date">{{ post.date | date_to_string }}</span>
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
-  </section>
+  <ul class="listing">
+
+    {% for post in site.posts limit:5 %}
+    <li>
+      <a href="{{site.baseurl}}{{ post.url }}">
+        <span class="title">{{ post.title }}</span>
+        <span class="date">{{ post.date | date_to_string }}</span>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
 
 <section class="events">
-  <article >
-      <div class="media">
-          <img src="{{ site.baseurl }}/images/image04.jpg" alt="Baby">
-      </div>
+  <article class="media">
+    <img src="{{ site.baseurl }}/images/image04.jpg" alt="Baby">
+
   </article>
-  <article>
+
+  <article class="text-conteiner">
     <h3>Let's celebrate my First Birthday together!</h3>
     <p>Save the date: <span>Saturday, March 23, 2019</span></p>
-      <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem neque soluta eum odio iste dicta, assumenda iure
-          sunt
-          vitae facere cum facilis tenetur quae quo sapiente adipisci? Odio, vero qui?
-        </p>
-        <div class="read-more"><a href="{{ site.baseurl }}/events">More Informaion</a></div>
+    <p>
+      Neque egestas congue quisque egestas diam in arcu cursus. Lectus urna duis convallis convallis tellus id. Lacus
+      suspendisse faucibus interdum posuere lorem ipsum dolor. Odio, vero qui?
+    </p>
+    <div class="fas fa-chevron-left"><a href="{{ site.baseurl }}/events" class="read-more button">More Informaion</a></div>
   </article>
 
 </section>

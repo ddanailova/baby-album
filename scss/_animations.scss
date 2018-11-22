@@ -66,3 +66,46 @@
 
     100% {opacity: 1;}
 }
+@keyframes fly{
+    0% {
+        opacity: 0.1;
+        transform: rotate(0deg);
+        top:5rem; right:3.6rem;
+    }
+    10% {
+        transform: rotate(15deg);
+        top:calc(100vh -80vh - 3rem); right:4.6rem;
+    }
+    20% {
+        transform: rotate(5deg);
+        top:calc(100vh -60vh - 3rem); right:3.6rem;
+    }
+
+    30% {
+        transform: rotate(-10deg);
+        top:calc(100vh -30vh - 3rem); right:2.6rem;
+    }
+    40% {
+        transform: rotate(-5deg);
+        top:calc(100vh -40vh - 3rem); right:3.6rem;
+    }
+    60% {
+        transform: rotate(5deg);
+        top:calc(100vh -20vh - 3rem); right:5rem;
+    }
+
+    80% {
+        transform: rotate(0deg);
+        top:calc(100vh -10vh - 3rem); right:3.6rem;
+    }
+
+    90% {
+        transform: rotate(-10deg);
+        top:calc(100vh -10vh - 3rem); right:2.6rem;
+    }
+    100% {
+        opacity: 1;
+        transform: rotate(0deg);
+        top:calc(100vh - 10rem); right:3.6rem;
+    }
+}

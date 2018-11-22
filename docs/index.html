@@ -7,10 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Baby Album</title>
     <link rel="stylesheet" href="/baby-album/css/styles.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="/baby-album/scripts/scripts.js"></script>
 </head>
-<body class=" home" onload="toggleGender()">
+<body class="home">
+        <div class="flying">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                <path d="M197.8 427.8c12.9 11.7 33.7 33.3 33.2 50.7 0 .8-.1 1.6-.1 2.5-1.8 19.8-18.8 31.1-39.1 31-25-.1-39.9-16.8-38.7-35.8 1-16.2 20.5-36.7 32.4-47.6 2.3-2.1 2.7-2.7 5.6-3.6 3.4 0 3.9.3 6.7 2.8zM331.9 67.3c-16.3-25.7-38.6-40.6-63.3-52.1C243.1 4.5 214-.2 192 0c-44.1 0-71.2 13.2-81.1 17.3C57.3 45.2 26.5 87.2 28 158.6c7.1 82.2 97 176 155.8 233.8 1.7 1.6 4.5 4.5 6.2 5.1l3.3.1c2.1-.7 1.8-.5 3.5-2.1 52.3-49.2 140.7-145.8 155.9-215.7 7-39.2 3.1-72.5-20.8-112.5zM186.8 351.9c-28-51.1-65.2-130.7-69.3-189-3.4-47.5 11.4-131.2 69.3-136.7v325.7zM328.7 180c-16.4 56.8-77.3 128-118.9 170.3C237.6 298.4 275 217 277 158.4c1.6-45.9-9.8-105.8-48-131.4 88.8 18.3 115.5 98.1 99.7 153z"/>
+            </svg></div>
     <input type="checkbox" id="gender-main-toggle-boy" name="gender-main-toggle-boy">
     <input type="checkbox" id="gender-main-toggle-girl" name="gender-main-toggle-girl">
     <div class="site">
@@ -27,7 +30,7 @@
 
             <nav class="main-nav">
                 <ul>
-                    <li><a href="/baby-album/" class="fab fa-gratipay"></a><span>Blog</span></li>
+                    <li><a href="/baby-album/" class="fab fa-gratipay"></a><span>Home</span></li>
                     <li><a href="/baby-album/about" class="fas fa-user-circle"></a><span>About</span></li>
                     <li><a href="/baby-album/gallery" class="fas fa-camera"></a><span>Gallery</span></li>
                     <li><a href="/baby-album/events" class="far fa-calendar-alt"></a><span>Events</span></li>
@@ -39,87 +42,96 @@
         <main class="site-content">
             <h1>Hello World!</h1>
 
-<section class="about">
-  <h3>My name is Lilly</h3>
-  <p>
-Hello! My name is Lilly and I am a fictional character. My sole purpose is inhabiting this blog and giving it life. Some of the lines that you will read here will make no sense to you but don't worry there is a reason for that. See, in my world, we don't use the same words that you do. Like in every foreign country you visit it take you some time to adjust and start understanding the people around you. In my world, it is the same. The more you look the more meaning you will find and the more you will understand about my habitat. But is I was a real, I would also be a good person so let me give you a few advises. Start with the titles, the pictures, the buttons, all the things that are already familiar. Once you feel more comfortable try reading the text more carefully and if you start seeing the meaning it is because you have crossed the border and you are now in my world. If I was a real person, I would be a curious one, so don't worry and let's explore together!
-  </p>
-  <div class="read-more"><a href="/baby-album/about">More About me</a></div>
+<section class="about text-conteiner">
+  <article class="text-conteiner">
+    <h2>My name is Lilly</h2>
+    <p>
+      Hello! My name is Lilly and I am a fictional character. My sole purpose is inhabiting this blog and giving it
+      life. Some of the lines that you will read here will make no sense to you but don't worry, there is a reason for
+      that. See, in my world, we don't use the same words that you do. Like in every foreign country you visit it takes
+      you some time to adjust and start understanding the people around you. My world, it is exactly the same. The more
+      you look, the more meaning you will find and the more you will start understanding my habitat. If I was a real
+      person, I would be a good person so let me give you a few advises. Start with the big things like the titles, the
+      pictures, the buttons, all the things that look familiar. Once you feel more comfortable try reading the text
+      more carefully and if you start seeing the meaning it is because you have crossed the border and you are now in
+      my world. If I was a real person, I would also be a curious one, so don't worry and let's explore together!
+    </p>
+    <div class="fas fa-chevron-left"><a href="/baby-album/about" class="read-more button">More About me</a></div>
+  </article>
 </section>
 
 <section class="gallery">
-    <div class="media">
-        <img src="/baby-album/images/image09.jpg" alt="Baby">
-    </div>
-    <div class="media">
-        <img src="/baby-album/images/image05.jpg" alt="Baby">
-    </div>
-    <div class="media">
-        <img src="/baby-album/images/image07.jpg" alt="Baby">
-    </div>
-    <div class="media">
-        <img src="/baby-album/images/image10.jpg" alt="Baby">
-    </div>
-  <div class="read-more"><a href="/baby-album/gallery">More Pictures</a></div>
+  <div class="media">
+    <img src="/baby-album/images/image09.jpg" alt="Baby">
+  </div>
+  <div class="media">
+    <img src="/baby-album/images/image05.jpg" alt="Baby">
+  </div>
+  <div class="media">
+    <img src="/baby-album/images/image07.jpg" alt="Baby">
+  </div>
+  <div class="media">
+    <img src="/baby-album/images/image10.jpg" alt="Baby">
+  </div>
+  <div class="fas fa-chevron-left"><a href="/baby-album/gallery" class="read-more button">More Pictures</a></div>
 </section>
 
 <section class="posts">
-    <ul class="listing">
-  
-      
-      <li>
-          <a href="/baby-album/2018/11/21/fift-post.html">
-            <span class="title">Some days it's so hard to get out of bed</span>
-            <span class="date">21 Nov 2018</span>
-          </a>
-        </li>
-      
-      <li>
-          <a href="/baby-album/2018/11/20/forth-post.html">
-            <span class="title">Making my first friends</span>
-            <span class="date">20 Nov 2018</span>
-          </a>
-        </li>
-      
-      <li>
-          <a href="/baby-album/2018/11/19/third-post.html">
-            <span class="title">East - West, home is the best</span>
-            <span class="date">19 Nov 2018</span>
-          </a>
-        </li>
-      
-      <li>
-          <a href="/baby-album/2018/11/18/second-post.html">
-            <span class="title">My first day full of adventures</span>
-            <span class="date">18 Nov 2018</span>
-          </a>
-        </li>
-      
-      <li>
-          <a href="/baby-album/2018/11/17/first-post.html">
-            <span class="title">At last I can see the light!</span>
-            <span class="date">17 Nov 2018</span>
-          </a>
-        </li>
-      
-    </ul>
-  </section>
+  <ul class="listing">
+
+    
+    <li>
+      <a href="/baby-album/2018/11/21/fift-post.html">
+        <span class="title">Some days it's so hard to get out of bed</span>
+        <span class="date">21 Nov 2018</span>
+      </a>
+    </li>
+    
+    <li>
+      <a href="/baby-album/2018/11/20/forth-post.html">
+        <span class="title">Making my first friends</span>
+        <span class="date">20 Nov 2018</span>
+      </a>
+    </li>
+    
+    <li>
+      <a href="/baby-album/2018/11/19/third-post.html">
+        <span class="title">East - West, home is the best</span>
+        <span class="date">19 Nov 2018</span>
+      </a>
+    </li>
+    
+    <li>
+      <a href="/baby-album/2018/11/18/second-post.html">
+        <span class="title">My first day full of adventures</span>
+        <span class="date">18 Nov 2018</span>
+      </a>
+    </li>
+    
+    <li>
+      <a href="/baby-album/2018/11/17/first-post.html">
+        <span class="title">At last I can see the light!</span>
+        <span class="date">17 Nov 2018</span>
+      </a>
+    </li>
+    
+  </ul>
+</section>
 
 <section class="events">
-  <article >
-      <div class="media">
-          <img src="/baby-album/images/image04.jpg" alt="Baby">
-      </div>
+  <article class="media">
+    <img src="/baby-album/images/image04.jpg" alt="Baby">
+
   </article>
-  <article>
+
+  <article class="text-conteiner">
     <h3>Let's celebrate my First Birthday together!</h3>
     <p>Save the date: <span>Saturday, March 23, 2019</span></p>
-      <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem neque soluta eum odio iste dicta, assumenda iure
-          sunt
-          vitae facere cum facilis tenetur quae quo sapiente adipisci? Odio, vero qui?
-        </p>
-        <div class="read-more"><a href="/baby-album/events">More Informaion</a></div>
+    <p>
+      Neque egestas congue quisque egestas diam in arcu cursus. Lectus urna duis convallis convallis tellus id. Lacus
+      suspendisse faucibus interdum posuere lorem ipsum dolor. Odio, vero qui?
+    </p>
+    <div class="fas fa-chevron-left"><a href="/baby-album/events" class="read-more button">More Informaion</a></div>
   </article>
 
 </section>
@@ -162,5 +174,7 @@ Hello! My name is Lilly and I am a fictional character. My sole purpose is inhab
                     <footer class="site-footer"></footer>
 
         </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script>$(function() { toggleGender() });</script>
     </body>
 </html>

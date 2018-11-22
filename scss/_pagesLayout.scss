@@ -1,0 +1,18 @@
+.page {
+    .site {
+        .site-content {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+
+            .post-title {
+                grid-column: 1 / span 1;
+                padding: 1rem 0.5rem;
+            }
+
+            .text-conteiner {
+                grid-column: 2 / span 3;
+                padding: $main-side-wsp 0.5rem $main-top-wsp 0.5rem;
+            }
+        }
+    }
+}
