@@ -45,3 +45,34 @@ ul, ol {
 li {
     list-style-position: inside;
 }
+
+blockquote {
+    position: relative;
+    font-style: italic;
+    font-family:  Georgia, serif; 
+    margin: 0 30% $main-top-wsp 30%;
+    padding: 1rem 2rem 0.5rem 2rem;
+    background: transparent;
+}
+
+blockquote .author {
+    text-align: right;
+    margin-top:1rem;
+    padding: 0;
+}
+
+blockquote:before {
+    display: block;
+    position: absolute;
+    top:-5rem; left:-1rem;
+    content: '\201C';
+    color:rgba($highlight-color, 0.3);
+    font-size:15rem;
+}
+
+blockquote .author:before{
+    display: inline-block;
+    content: '—';
+    padding-right: 0.5rem;
+    color:rgba($highlight-color, 0.8);
+}

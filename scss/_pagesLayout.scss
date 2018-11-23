@@ -12,6 +12,11 @@
             .text-conteiner {
                 grid-column: 2 / span 3;
                 padding: $main-side-wsp 0.5rem $main-top-wsp 0.5rem;
+
+                .media {
+                    width: 60%;
+                    margin:1rem auto;
+                }
             }
         }
     }
