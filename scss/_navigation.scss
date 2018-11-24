@@ -121,3 +121,12 @@
         }
     }
 }
+
+@media screen and (max-width:375px){
+    .main-nav {
+        min-width: 50%;
+        & ul li span {
+           font-size: 0.9rem;
+        }
+    }
+}

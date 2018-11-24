@@ -1,3 +1,4 @@
+/*Styles for Regular buttons*/
 button,
 .button {
     margin: 0 auto;
@@ -21,7 +22,7 @@ button,
     }
 }
 
-
+/*Styles for More buttons*/
 a{
     @at-root {
         .fa-caret-left:before {
@@ -49,5 +50,12 @@ a{
         background: var(--highlight-color);
         color: white;
         transition: background var(--main-animation), color var(--main-animation);
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .button,
+    .button.read-more{
+        padding: 0.5rem 1rem;
     }
 }

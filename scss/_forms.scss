@@ -1,3 +1,4 @@
+/*Styles for Regulas full width form*/
 .form-wrapper {
     position: absolute;
     top: 0;
@@ -70,6 +71,7 @@ form {
     }
 }
 
+/*Styles for Register form*/
 .form-wrapper.register {
     background: white;
     position: fixed;
@@ -135,4 +137,25 @@ form {
     opacity: 1;
     animation: slideBottomOut 0.2s ease-in 1 both;
     pointer-events: all;
+}
+
+@media screen and (max-width:1200px){
+    
+    .form-wrapper.register {
+        position: static;
+        display: block;
+        opacity: 1;
+        pointer-events: all;
+        overflow: hidden;
+        box-shadow: $shadow;
+    }
+    body.gallery,
+    body.events{
+        .form-wrapper.register{
+            grid-column: 1 / -1;
+        }
+    }
+    .register-toggle {
+        display: none;
+    }
 }
