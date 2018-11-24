@@ -1,22 +1,30 @@
-.page {
+/*Styles for post pages*/
+
+body.page {
     .site {
         .site-content {
             padding: $main-top-wsp + 0.3rem 0;
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
+            display: block;
+            
+            section:first-of-type {
+                display: flex;
+                padding: 1rem 0.5rem 0 0.5rem;
 
-            .post-title {
-                grid-column: 1 / span 1;
-                padding: 1rem 0.5rem;
+                .post-title {
+                    flex:0 0 17rem;
+                    .date {
+                        color: var(--highlight-color);
+                    }
+                }
+                .summery{
+                    flex:1 1 75%;
+                    padding: 7rem 0.5rem 0 2rem;
+                }
             }
-
             .text-conteiner {
-                grid-column: 2 / span 3;
-                padding: $main-side-wsp 0.5rem $main-top-wsp 0.5rem;
-
                 .media {
-                    width: 60%;
-                    margin:1rem auto;
+                    width: 40%;
+                    margin: 1.5rem auto;
                 }
             }
         }

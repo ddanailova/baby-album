@@ -1,0 +1,56 @@
+/*Styles for event page*/
+
+body.events {
+    .site {
+        section {
+            padding: $main-top-wsp + 0.3rem 0;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+
+            h1 {
+                grid-column: 1 / -1;
+            }
+
+            .post-title {
+                grid-column: 1 / span 1;
+                padding: 1rem 0.5rem;
+
+                .date {
+                    color: var(--highlight-color);
+                }
+            }
+
+            .media {
+                grid-column: 2 / span 3;
+                width: 100%;
+                margin: 0 auto;
+                position: relative;
+                overflow: hidden;
+
+                &:after {
+                    display: block;
+                    content: "";
+                    padding-top: 56.25%;
+                }
+
+                img {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                }
+            }
+
+            .text-conteiner {
+                grid-column: 1 / span 4;
+                padding: $main-top-wsp 0.5rem;
+            }
+
+            &:nth-child(4)>div.media>img {
+                top: 50%;
+                left: 0;
+                transform: translateY(-60%);
+            }
+        }
+    }
+}
+

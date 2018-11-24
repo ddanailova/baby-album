@@ -1,47 +1,53 @@
+button,
+.button {
+    margin: 0 auto;
+    margin-top: $main-top-wsp;
+    padding: 0.5rem 2rem;
+    background: var(--highlight-color);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9rem;
+    border: $highlight-border;
+    border-radius: 3rem;
+    transition: color var(--main-animation), background var(--main-animation);
 
-    button, .button {
-        margin: 0 auto;
-        margin-top: $main-top-wsp;
-        padding: 0.5rem 2rem;
+    &:hover,
+    &:active,
+    &:focus {
+        background: white;
+        color: var(--highlight-color);
+        outline: none;
+    }
+}
+
+
+a{
+    @at-root {
+        .fa-caret-left:before {
+            margin-right: 1.2rem;
+            font-size: 1rem;
+            color: var(--highlight-color);
+        }
+
+        .button.read-more {
+            background: white;
+            text-decoration: none;
+            padding: 0.5rem 1.5rem;
+            border: none;
+            border-radius: 0;
+            border-bottom: $highlight-border;
+            border-top: $highlight-border;
+            font-size: 1rem;
+            color: var(--highlight-color);
+        }
+    }
+
+    &:active .fa-caret-left .button.read-more,
+    &:focus .fa-caret-left .button.read-more,
+    &:hover .fa-caret-left .button.read-more {
         background: var(--highlight-color);
         color: white;
-        text-transform: uppercase;
-        font-weight: bold;
-        font-size: 0.9rem;
-        border: $highlight-border;
-        border-radius: 3rem;
-        transition: color var(--main-animation), background var(--main-animation);
-
-        &:hover,
-        &:active,
-        &:focus {
-            background: white;
-            color: var(--highlight-color);
-            outline:none;
-        }
+        transition: background var(--main-animation), color var(--main-animation);
     }
-
-    .button.read-more {
-        background: white;
-        text-decoration: none;
-        padding: 0.5rem 2rem;
-        border:none;
-        border-radius: 0;
-        border-bottom:$highlight-border;
-        border-top:$highlight-border;
-        font-size: 1rem;
-        color: var(--highlight-color);
-
-        &:active,
-        &:focus,
-        &:hover {
-            background:var(--highlight-color);
-            color: white;
-            transition: background var(--main-animation), color var(--main-animation);
-        }
-    }
-    .fa-caret-left:before{
-        margin-right: 1.2rem;
-        font-size: 1rem;
-        color: var(--highlight-color);
-    }
+}

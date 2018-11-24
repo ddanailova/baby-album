@@ -127,12 +127,12 @@ form {
         font-size:2rem;
         color: var(--highlight-color);
         background: white;
-        animation: slideBottomOut 0.3s ease-in 1 both;
+        animation: slideBottomOut 0.2s ease-in 1 both;
     }
 }
 
 #main-register-toggle:checked+.register-toggle+.form-wrapper.register {
     opacity: 1;
-    animation: slideBottomOut 0.3s ease-in 1 both;
+    animation: slideBottomOut 0.2s ease-in 1 both;
     pointer-events: all;
 }
