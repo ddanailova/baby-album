@@ -6,6 +6,11 @@
         grid-column: 1 / span 4;
         p{
             padding-bottom: 0.5rem;
+            &:before{
+                display: inline-block;
+                content: '—';
+                padding-right: 0.5rem;
+            }
         }
         & .media {
             margin: 0 auto;

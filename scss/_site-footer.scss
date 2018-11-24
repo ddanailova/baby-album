@@ -1,0 +1,11 @@
+.site-footer{
+    text-align: center;
+    font-size: 0.8rem;
+    padding:$main-top-wsp/2 0;
+    p{
+        padding:0;
+    }
+    a {
+        color: var(--highlight-color);
+    }
+}

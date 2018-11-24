@@ -3,13 +3,12 @@
     --font-size-lv2: 14px;
     --font-size-lv3: 16px;
     --font-size-lv4: 18px;
+    --highlight-color:coral;
+    --main-animation: 0.2s ease;
 }
 
 $shadow:0 0 0.5rem 0 rgba(black, 0.3);
-$highlight-color-b:rgb(80, 127, 255);
-$highlight-color-g:coral;
-$highlight-color:$highlight-color-g;
-$highlight-border:2px solid $highlight-color;
+$highlight-border:2px solid var(--highlight-color);
 $opegue:1;
 $main-color:#333;
 $main-top-wsp:2rem;
@@ -24,11 +23,9 @@ $main-side-wsp:10rem;
 }
 
 #gender-main-toggle-girl:checked+.site {
-    $highlight-color: $highlight-color-g;
-    background: rgba(lightsalmon, 0.2);
+    --highlight-color: coral;
 }
 
 #gender-main-toggle-boy:checked+#gender-main-toggle-girl+.site {
-    $highlight-color: $highlight-color-b;
-    background: rgba(lightblue, 0.4);
+    --highlight-color: rgb(56, 160, 148);
 }

@@ -38,7 +38,7 @@
             vertical-align: middle;
             margin-right: 0.5rem;
             font-size: $nav-icon-size;
-            color: $highlight-color;
+            color: var(--highlight-color);
             background: white;
             border-bottom: $highlight-border;
             border-left: $highlight-border;
@@ -52,8 +52,8 @@
         & .fab:hover:before,
         & .far:hover:before {
             color: white;
-            background: $highlight-color;
-            transition: color 0.3s ease, background 0.6s ease;
+            background: var(--highlight-color);
+            transition: color var(--main-animation), background var(--main-animation);
         }
 
         & span {
@@ -82,7 +82,7 @@
 
 @media screen and (max-width:760px) {
     .main-nav {
-        min-width: 70%;
+        min-width: 75%;
         position: relative;
         top: $main-top-wsp*2;
         left: 0;
@@ -97,6 +97,10 @@
         & ul li {
             width: ($main-side-wsp - 2rem)/2;
             text-align: center;
+
+            & span {
+                opacity: 1;
+            }
         }
 
         & .fas:before,
@@ -104,6 +108,16 @@
         & .far:before {
             border: $highlight-border;
             margin-right: 0;
+        }
+    }
+
+    body.login {
+        .main-nav {
+            top: $main-top-wsp;
+        }
+
+        .site-branding  {
+            display: none;
         }
     }
 }

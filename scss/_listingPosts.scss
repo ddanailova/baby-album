@@ -1,0 +1,189 @@
+.listing {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 1rem 2rem;
+
+    li {
+        display: block;
+        list-style: none outside;
+        border-radius: 0.3rem;
+        background-color: #f6eee3;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23f08080' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+        box-shadow: $shadow;
+
+        a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            text-decoration: none;
+            padding: 1rem 1.5rem;
+            color: $main-color;
+
+            & span {
+                display: block;
+            }
+
+            & .title {
+                font-weight: bold;
+                font-size: 1.2rem;
+                margin-bottom: 5.5rem;
+            }
+
+            & .date {
+                border-top: 1px solid var(--highlight-color);
+            }
+        }
+
+        &:nth-child(1) {
+            grid-column: 1 / span 2;
+            grid-row: 1 / span 1;
+            text-align: end;
+
+            a {
+                padding: 6rem 2rem 1.5rem 2rem;
+
+                & .title {
+                    font-weight: bold;
+                    font-size: 1.5rem;
+                    padding-bottom: 0.7rem;
+                    margin: 0;
+                }
+
+                & .date {
+                    font-size: 1.2rem;
+                    border-top: $highlight-border;
+                }
+            }
+        }
+
+        &:nth-child(2) {
+            grid-column: 3 / span 1;
+            grid-row: 1 / span 1;
+        }
+
+        &:nth-child(3) {
+            grid-column: 2 / span 1;
+            grid-row: 2 / span 1;
+        }
+
+        &:nth-child(4) {
+            grid-column: 3 / span 1;
+            grid-row: 2 / span 1;
+        }
+
+        &:nth-child(5) {
+            grid-column: 4 / span 1;
+            grid-row: 2 / span 1;
+        }
+
+        &:active,
+        &:focus,
+        &:hover {
+            background: var(--highlight-color);
+            transition: background var(--main-animation);
+
+            & a {
+                color: white;
+                transition: color var(--main-animation);
+
+                & .date {
+                    border-color: $main-color;
+                    transition: border-color var(--main-animation);
+                }
+            }
+        }
+    }
+}
+
+body.blog {
+    .site {
+        .site-content {}
+    }
+}
+
+body.blog {
+    .site-content h1 {
+        text-align: center;
+    }
+
+    .posts {
+        border-radius: 0.5rem;
+        padding: $main-top-wsp*2;
+        background-color: #f6eee3;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23f08080' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+        box-shadow: 0 0 1.5rem 0.1rem rgba(black, 0.1) inset;
+
+        .listing {
+            display: block;
+            box-shadow: $shadow;
+            position: relative;
+            padding: 5rem 0;
+            background: white;
+
+            &:before {
+                content: '';
+                position: absolute;
+                z-index: 101;
+                top: 0;
+                bottom: 0;
+                left: 8rem;
+                width: 5px;
+                border-left: 1px solid var(--highlight-color);
+                border-right: 2px solid var(--highlight-color);
+            }
+
+            li {
+                $line-border: 2px solid #ddd;
+                background: white;
+                box-shadow: none;
+                border-bottom: $line-border;
+                vertical-align: middle;
+
+                &:first-child {
+                    text-align: inherit;
+                    border-top: $line-border;
+                }
+
+                a {
+                    display: flex;
+                    padding: 0.5rem 0;
+                    color: $main-color;
+
+                    & .title {
+                        font-size: 1.2rem;
+                        font-weight: bold;
+                        margin-bottom: 0;
+                        padding: 0;
+                        order: 2;
+                        text-align: center;
+                    }
+
+                    & .date {
+                        font-size: inherit;
+                        border-top: none;
+                        padding: 0 2rem 0 1.5rem;
+                        margin: 0;
+                        order: 1;
+                    }
+
+                    &:active,
+                    &:focus,
+                    &:hover{
+                        color: var(--highlight-color);
+
+                        & .title:after {
+                            display: inline;
+                            content: '\00ab';
+                            font-size: 1.2rem;
+                            color: var(--highlight-color);
+                            padding-left: 0.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

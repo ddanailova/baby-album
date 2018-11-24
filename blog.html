@@ -1,0 +1,22 @@
+---
+layout: site
+title: Blog
+permalink: /blog/
+---
+{% include baloon.html %}
+<h1>Blog Posts</h1>
+
+<section class="posts">
+    <ul class="listing">
+      {% for post in site.posts %}
+      <li>
+        <a href="{{site.baseurl}}{{ post.url }}">
+          <span class="title">{{ post.title }}</span>
+          <span class="date">{{ post.date | date_to_string }}</span>
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+
+{% include register.html %}
