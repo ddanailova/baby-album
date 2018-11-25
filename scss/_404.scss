@@ -4,16 +4,13 @@
     .text-conteiner.error-page {
         text-align: center;
         grid-column: 1 / span 4;
-        p{
-            padding-bottom: 0.5rem;
-            &:before{
-                display: inline-block;
-                content: '—';
-                padding-right: 0.5rem;
-            }
+        blockquote{
+            width:100%;
+            margin: 0;
+            // padding: 0;
         }
         & .media {
-            margin: 0 auto;
+            margin: $main-top-wsp auto;
             width: 90%;
             overflow: hidden;
             position: relative;

@@ -52,10 +52,3 @@ a{
         transition: background var(--main-animation), color var(--main-animation);
     }
 }
-
-@media screen and (max-width:1200px) {
-    .button,
-    .button.read-more{
-        padding: 0.5rem 1rem;
-    }
-}

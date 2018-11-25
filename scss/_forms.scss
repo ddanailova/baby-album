@@ -147,14 +147,19 @@ form {
         opacity: 1;
         pointer-events: all;
         overflow: hidden;
-        box-shadow: $shadow;
-    }
-    body.gallery,
-    body.events{
-        .form-wrapper.register{
-            grid-column: 1 / -1;
+
+        .form-inner {
+            margin-top: $main-top-wsp*2;
+            box-shadow: none;
+            border-top: 1px solid #ddd;
         }
     }
+    // body.gallery,
+    // body.events{
+    //     .form-wrapper.register{
+    //         grid-column: 1 / -1;
+    //     }
+    // }
     .register-toggle {
         display: none;
     }

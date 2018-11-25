@@ -43,9 +43,12 @@ body.events {
             .text-conteiner {
                 grid-column: 1 / span 4;
                 padding: $main-top-wsp 0.5rem;
+                &:last-child{
+                    padding-bottom: 0;
+                }
             }
 
-            &:nth-child(4)>div.media>img {
+            &:nth-child(3)>div.media>img {
                 top: 50%;
                 left: 0;
                 transform: translateY(-60%);
@@ -53,4 +56,3 @@ body.events {
         }
     }
 }
-
