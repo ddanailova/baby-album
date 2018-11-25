@@ -1,10 +1,5 @@
 /*Styles for blog page*/
 
-body.blog {
-    .site {
-        .site-content {}
-    }
-}
 
 body.blog {
     .site-content h1 {
@@ -14,7 +9,7 @@ body.blog {
     .posts {
         border-radius: 0.5rem;
         padding: $main-top-wsp*2;
-        height: 70vh;
+        height: 100vh;
         overflow: auto;
         background-color: #f6eee3;
         background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23f08080' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
@@ -75,7 +70,7 @@ body.blog {
 
                     &:active,
                     &:focus,
-                    &:hover{
+                    &:hover {
                         color: var(--highlight-color);
 
                         & .title:after {
@@ -84,6 +79,73 @@ body.blog {
                             font-size: 1.2rem;
                             color: var(--highlight-color);
                             padding-left: 0.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1200px) {
+    body.blog {
+        .posts {
+            margin-top: $main-top-wsp;
+        }
+    }
+}
+
+
+
+@media screen and (max-width:1100px) {
+    body.blog {
+        .posts {
+            padding: $main-top-wsp*2 $main-top-wsp;
+            $side-space: 4rem;
+
+            .listing {
+
+                &:before {
+                    left: $side-space;
+                }
+
+                li {
+                    a {
+                        flex-wrap: wrap;
+
+                        & .title {
+                            width: 100%;
+                            text-align: inherit;
+                            padding: 0 1rem 0 $side-space+1rem;
+                        }
+
+                        & .date {
+                            width: 100%;
+                            padding: 0 1rem 0 $side-space+1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:700px) {
+    body.blog {
+        .posts {
+            .listing {
+                &:before {
+                    display: none;
+                }
+
+                li {
+                    a {
+                        & .title {
+                            padding: 0 1rem;
+                        }
+
+                        & .date {
+                            padding: 0 1rem;
                         }
                     }
                 }

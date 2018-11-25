@@ -80,7 +80,7 @@
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:812px) {
     .main-nav {
         min-width: 75%;
         position: relative;
@@ -113,7 +113,7 @@
 
     body.login {
         .main-nav {
-            top: $main-top-wsp;
+            top: $main-top-wsp*2;
         }
 
         .site-branding  {

@@ -13,7 +13,7 @@ body.events {
 
             .post-title {
                 grid-column: 1 / span 1;
-                padding: 1rem 0.5rem;
+                padding: 1rem 1rem 1rem 0.5rem;
 
                 .date {
                     color: var(--highlight-color);
@@ -43,7 +43,8 @@ body.events {
             .text-conteiner {
                 grid-column: 1 / span 4;
                 padding: $main-top-wsp 0.5rem;
-                &:last-child{
+
+                &:last-child {
                     padding-bottom: 0;
                 }
             }
@@ -52,6 +53,16 @@ body.events {
                 top: 50%;
                 left: 0;
                 transform: translateY(-60%);
+            }
+        }
+    }
+}
+
+@media screen and (max-width:960px) {
+    body.events {
+        .site {
+            section {
+                display: block;
             }
         }
     }

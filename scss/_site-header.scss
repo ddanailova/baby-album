@@ -29,15 +29,14 @@
 
         & .site-gender {
             position: absolute;
-            top: 100%;
+            bottom: 0;
             right: 0;
-            transform: translateY(-100%);
 
             @at-root {
                 .gender-toggle{
                     cursor: pointer;
                     &.boy{
-                        color:teal;
+                        color:#89cff0;
                     }
                     &.girl{
                         color:coral;
@@ -45,6 +44,15 @@
                 }
             }
         }
+    }
+}
+
+@media screen and (max-width:812px) {
+    .site-branding {
+       & .site-gender {
+        bottom: 100%;
+        transform: translateY(50%);
+    }
     }
 }
 

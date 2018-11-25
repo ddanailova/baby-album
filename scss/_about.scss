@@ -1,1 +1,10 @@
 /*Styles for event page*/
+body.about {
+    .text-conteiner {
+        padding-top: $main-top-wsp;
+
+        h2 {
+            animation: none;
+        }
+    }
+}

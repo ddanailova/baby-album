@@ -6,7 +6,7 @@
     bottom: 0;
     left: 0;
     background: rgba(white, 0.9);
-    z-index:100;
+    z-index: 100;
 
     @at-root {
         .form-inner {
@@ -63,7 +63,7 @@ form {
         display: block;
         margin: 0.5rem 0;
         padding: 0.5rem 1rem;
-        font-size:0.8rem;
+        font-size: 0.8rem;
         border: none;
         outline: none;
         background: rgba(#333, 0.1);
@@ -108,25 +108,26 @@ form {
     display: none;
 }
 
-#main-register-toggle + .register-toggle{
+#main-register-toggle+.register-toggle {
     position: fixed;
     top: calc(100vh - 5rem);
     right: 1rem;
 }
 
-#main-register-toggle:checked + .register-toggle {
+#main-register-toggle:checked+.register-toggle {
     position: fixed;
     top: calc(100vh - 34rem);
     right: 2rem;
-    z-index:1001;
+    z-index: 1001;
 
     & span {
         display: none;
     }
+
     &:before {
         display: block;
         content: '\00d7';
-        font-size:2rem;
+        font-size: 2rem;
         color: var(--highlight-color);
         background: white;
         animation: slideBottomOut 0.2s ease-in 1 both;
@@ -139,8 +140,18 @@ form {
     pointer-events: all;
 }
 
-@media screen and (max-width:1200px){
-    
+@media screen and (max-width:1200px) {
+    /*Regular form responsive*/
+    .form-wrapper {
+        @at-root {
+            .form-inner {
+                width: 65%;
+                margin: $main-top-wsp*4  $main-top-wsp*6 $main-top-wsp*4 auto;
+            }
+        }
+    }
+
+    /*Register form responsive*/
     .form-wrapper.register {
         position: static;
         display: block;
@@ -152,15 +163,77 @@ form {
             margin-top: $main-top-wsp*2;
             box-shadow: none;
             border-top: 1px solid #ddd;
+            position: relative;
+            overflow: hidden;
+
+            form {
+                margin: $main-top-wsp*2 0 0 0;
+                background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(coral, 0.2) 100%);
+
+                fieldset {
+                    background: white;
+                    width: 50%;
+                    padding: 0 $main-top-wsp $main-top-wsp $main-top-wsp;
+
+                    input[type="text"],
+                    input[type="email"],
+                    input[type="password"] {
+                        width: 100%;
+                    }
+                }
+            }
         }
     }
-    // body.gallery,
-    // body.events{
-    //     .form-wrapper.register{
-    //         grid-column: 1 / -1;
-    //     }
-    // }
+
     .register-toggle {
         display: none;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    /*Regular form responsive*/
+    .form-wrapper {
+        @at-root {
+            .form-inner {
+                width: 70%;
+                margin: $main-top-wsp*4  $main-top-wsp*4 $main-top-wsp*4 auto;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1000px) {
+    /*Regular form responsive*/
+    .form-wrapper {
+        @at-root {
+            .form-inner {
+                
+                margin: $main-top-wsp*4  $main-top-wsp*3 $main-top-wsp*4 auto;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:900px) {
+    /*Regular form responsive*/
+    .form-wrapper {
+        @at-root {
+            .form-inner {
+                width: 72%;
+                margin: $main-top-wsp*4  $main-top-wsp*2 $main-top-wsp*4 auto;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:812px) {
+    /*Regular form responsive*/
+    .form-wrapper {
+        @at-root {
+            .form-inner {
+                width: 90%;
+                margin: ($main-top-wsp*6) auto;
+            }
+        }
     }
 }
