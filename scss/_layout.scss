@@ -4,6 +4,8 @@
     padding: 0 $main-side-wsp;
 
     .site-content {
+        margin: 0 auto;
+        max-width: 70rem;
         padding: $main-top-wsp 0 0 0;
 
         &>section:last-child {

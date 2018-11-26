@@ -31,5 +31,3 @@ Felis bibendum ut tristique et egestas quis ipsum suspendisse ultrices. Manga si
 
 <p>Ante metus dictum at tempor commodo ullamcorper a lacus. Amet porttitor eget dolor morbi non arcu risus. Sapien pellentesque habitant morbi tristique senectus et netus et. Morbi tristique senectus et netus. Purus gravida quis blandit turpis. Morbi leo urna molestie at elementum eu facilisis sed odio. Diam vel quam elementum pulvinar etiam. Quam lacus suspendisse faucibus interdum posuere lorem ipsum. Ipsum nunc aliquet bibendum enim facilisis gravida neque. Cursus sit amet dictum sit amet justo donec enim diam. Vitae suscipit tellus mauris a diam maecenas sed. Pharetra pharetra massa massa ultricies mi. In ornare quam viverra orci sagittis eu. Urna duis convallis convallis tellus id interdum velit laoreet id. Massa vitae tortor condimentum lacinia quis vel eros. Mauris pellentesque pulvinar pellentesque habitant morbi tristique. Interdum velit laoreet id donec ultrices tincidunt arcu. Scelerisque felis imperdiet proin fermentum leo vel. Lacus viverra vitae congue eu consequat ac. In iaculis nunc sed augue.</p>
 </section>
-
-{% include register.html %}

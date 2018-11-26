@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/baby-album/feed.xml" rel="self" type="application/atom+xml" /><link href="/baby-album/" rel="alternate" type="text/html" /><updated>2018-11-25T21:10:53+02:00</updated><id>/baby-album/feed.xml</id><title type="html">Baby Album</title><subtitle>let's discover the world together</subtitle><entry><title type="html">Some days it’s so hard to get out of bed</title><link href="/baby-album/2018/11/21/fift-post.html" rel="alternate" type="text/html" title="Some days it's so hard to get out of bed" /><published>2018-11-21T09:44:41+02:00</published><updated>2018-11-21T09:44:41+02:00</updated><id>/baby-album/2018/11/21/fift-post</id><content type="html" xml:base="/baby-album/2018/11/21/fift-post.html">&lt;section&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/baby-album/feed.xml" rel="self" type="application/atom+xml" /><link href="/baby-album/" rel="alternate" type="text/html" /><updated>2018-11-26T14:57:41+02:00</updated><id>/baby-album/feed.xml</id><title type="html">Baby Album</title><subtitle>let's discover the world together</subtitle><entry><title type="html">Some days it’s so hard to get out of bed</title><link href="/baby-album/2018/11/21/fift-post.html" rel="alternate" type="text/html" title="Some days it's so hard to get out of bed" /><published>2018-11-21T09:44:41+02:00</published><updated>2018-11-21T09:44:41+02:00</updated><id>/baby-album/2018/11/21/fift-post</id><content type="html" xml:base="/baby-album/2018/11/21/fift-post.html">&lt;section&gt;
 &lt;div class=&quot;post-title&quot;&gt;
 &lt;h2&gt;Some days it's so hard to get out of bed&lt;/h2&gt;
 &lt;p class=&quot;date&quot;&gt;21 Nov 2018&lt;/p&gt;
@@ -23,39 +23,6 @@
 &lt;p&gt;Ut sem viverra aliquet eget sit. Mattis rhoncus urna neque viverra justo. Montes nascetur ridiculus mus mauris vitae ultricies leo. Nulla malesuada pellentesque elit eget gravida cum sociis. Elit eget gravida cum sociis natoque penatibus et magnis. Augue neque gravida in fermentum et sollicitudin ac. Sit amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus. Arcu dui vivamus arcu felis bibendum ut tristique. Sapien et ligula ullamcorper malesuada proin. Purus viverra accumsan in nisl nisi scelerisque. Ut eu sem integer vitae. Maecenas ultricies mi eget mauris pharetra et ultrices neque ornare. Volutpat diam ut venenatis tellus in metus vulputate eu scelerisque. A iaculis at erat pellentesque adipiscing commodo elit at imperdiet.&lt;/p&gt;
 
 &lt;p&gt;Nec ultrices dui sapien eget mi. Sodales neque sodales ut etiam sit. Magna fringilla urna porttitor rhoncus dolor purus non enim. Platea dictumst vestibulum rhoncus est pellentesque. Amet aliquam id diam maecenas. Tincidunt nunc pulvinar sapien et ligula ullamcorper. Elementum nisi quis eleifend quam. Ultrices gravida dictum fusce ut placerat orci nulla pellentesque dignissim. Quisque sagittis purus sit amet volutpat. Odio aenean sed adipiscing diam donec. Ut sem nulla pharetra diam sit amet nisl. Nulla facilisi morbi tempus iaculis. Felis bibendum ut tristique et egestas quis ipsum suspendisse ultrices. Magna sit amet purus gravida quis blandit turpis cursus. Quisque non tellus orci ac auctor augue mauris. Adipiscing elit pellentesque habitant morbi tristique senectus et. Dapibus ultrices in iaculis nunc sed augue lacus viverra vitae. Varius morbi enim nunc faucibus a pellentesque sit amet.&lt;/p&gt;
-&lt;/section&gt;
-
-&lt;section class=&quot;register&quot;&gt;
-    &lt;input type=&quot;checkbox&quot; name=&quot;main-register-toggle&quot; id=&quot;main-register-toggle&quot; /&gt;
-    &lt;label for=&quot;main-register-toggle&quot; class=&quot;register-toggle&quot;&gt;&lt;span class=&quot;button&quot;&gt;Register&lt;/span&gt;&lt;/label&gt;
-    &lt;div class=&quot;form-wrapper register&quot;&gt;
-        &lt;div class=&quot;form-inner&quot;&gt;
-            &lt;form action=&quot;#&quot;&gt;
-                &lt;fieldset&gt;
-                    &lt;legend&gt;Register&lt;/legend&gt;
-                    &lt;p class=&quot;field&quot;&gt;
-                        &lt;label for=&quot;username&quot;&gt;Username&lt;/label&gt;
-                        &lt;input type=&quot;text&quot; name=&quot;username&quot; id=&quot;username&quot; /&gt;
-                    &lt;/p&gt;
-
-                    &lt;p class=&quot;field&quot;&gt;
-                        &lt;label for=&quot;email&quot;&gt;Email&lt;/label&gt;
-                        &lt;input type=&quot;email&quot; name=&quot;email&quot; id=&quot;email&quot; /&gt;
-                    &lt;/p&gt;
-
-                    &lt;p class=&quot;field&quot;&gt;
-                        &lt;label for=&quot;password&quot;&gt;Password&lt;/label&gt;
-                        &lt;input type=&quot;password&quot; name=&quot;password&quot; id=&quot;password&quot; /&gt;
-                    &lt;/p&gt;
-                    &lt;p class=&quot;field&quot;&gt;
-                        &lt;label for=&quot;confirm-password&quot;&gt;Confirm Password&lt;/label&gt;
-                        &lt;input type=&quot;password&quot; name=&quot;confirm-password&quot; id=&quot;confirm-password&quot; /&gt;
-                    &lt;/p&gt;
-                    &lt;input type=&quot;submit&quot; value=&quot;Register&quot; class=&quot;button&quot; /&gt;
-                &lt;/fieldset&gt;
-            &lt;/form&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
 &lt;/section&gt;</content><author><name></name></author><summary type="html">Some days it's so hard to get out of bed 21 Nov 2018</summary></entry><entry><title type="html">Making my first friends</title><link href="/baby-album/2018/11/20/forth-post.html" rel="alternate" type="text/html" title="Making my first friends" /><published>2018-11-20T18:34:11+02:00</published><updated>2018-11-20T18:34:11+02:00</updated><id>/baby-album/2018/11/20/forth-post</id><content type="html" xml:base="/baby-album/2018/11/20/forth-post.html">&lt;section&gt;
 &lt;div class=&quot;post-title&quot;&gt;
 &lt;h2&gt;Making my first friends&lt;/h2&gt;
@@ -82,39 +49,6 @@ Enim tortor at auctor urna. Eget magna fermentum iaculis eu non diam phasellus v
 &lt;/div&gt;
 
 &lt;p&gt;Sed turpis tincidunt id aliquet risus feugiat. Dui id ornare arcu odio. In eu mi bibendum neque egestas congue quisque egestas diam. Eget magna fermentum iaculis eu. Eleifend donec pretium vulputate sapien nec sagittis aliquam. Arcu cursus euismod quis viverra nibh. Dignissim convallis aenean et tortor. Eros donec ac odio tempor orci dapibus ultrices in iaculis. Amet est placerat in egestas. Tristique et egestas quis ipsum. Turpis egestas sed tempus urna et pharetra pharetra. Ut sem viverra aliquet eget sit. Mattis rhoncus urna neque viverra justo. Montes nascetur ridiculus mus mauris vitae ultricies leo. Nulla malesuada pellentesque elit eget gravida cum sociis. Elit eget gravida cum sociis natoque penatibus et magnis. Augue neque gravida in fermentum et sollicitudin ac. Sit amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus. Arcu dui vivamus arcu felis bibendum ut tristique. Sapien et ligula ullamcorper malesuada proin. Purus viverra accumsan in nisl nisi scelerisque. Ut eu sem integer vitae. Maecenas ultricies mi eget mauris pharetra et ultrices neque ornare. Volutpat diam ut venenatis tellus in metus vulputate eu scelerisque. A iaculis at erat pellentesque adipiscing commodo elit at imperdiet.&lt;/p&gt;
-&lt;/section&gt;
-
-&lt;section class=&quot;register&quot;&gt;
-    &lt;input type=&quot;checkbox&quot; name=&quot;main-register-toggle&quot; id=&quot;main-register-toggle&quot; /&gt;
-    &lt;label for=&quot;main-register-toggle&quot; class=&quot;register-toggle&quot;&gt;&lt;span class=&quot;button&quot;&gt;Register&lt;/span&gt;&lt;/label&gt;
-    &lt;div class=&quot;form-wrapper register&quot;&gt;
-        &lt;div class=&quot;form-inner&quot;&gt;
-            &lt;form action=&quot;#&quot;&gt;
-                &lt;fieldset&gt;
-                    &lt;legend&gt;Register&lt;/legend&gt;
-                    &lt;p class=&quot;field&quot;&gt;
-                        &lt;label for=&quot;username&quot;&gt;Username&lt;/label&gt;
-                        &lt;input type=&quot;text&quot; name=&quot;username&quot; id=&quot;username&quot; /&gt;
-                    &lt;/p&gt;
-
-                    &lt;p class=&quot;field&quot;&gt;
-                        &lt;label for=&quot;email&quot;&gt;Email&lt;/label&gt;
-                        &lt;input type=&quot;email&quot; name=&quot;email&quot; id=&quot;email&quot; /&gt;
-                    &lt;/p&gt;
-
-                    &lt;p class=&quot;field&quot;&gt;
-                        &lt;label for=&quot;password&quot;&gt;Password&lt;/label&gt;
-                        &lt;input type=&quot;password&quot; name=&quot;password&quot; id=&quot;password&quot; /&gt;
-                    &lt;/p&gt;
-                    &lt;p class=&quot;field&quot;&gt;
-                        &lt;label for=&quot;confirm-password&quot;&gt;Confirm Password&lt;/label&gt;
-                        &lt;input type=&quot;password&quot; name=&quot;confirm-password&quot; id=&quot;confirm-password&quot; /&gt;
-                    &lt;/p&gt;
-                    &lt;input type=&quot;submit&quot; value=&quot;Register&quot; class=&quot;button&quot; /&gt;
-                &lt;/fieldset&gt;
-            &lt;/form&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
 &lt;/section&gt;</content><author><name></name></author><summary type="html">Making my first friends 20 Nov 2018 Enim tortor at auctor urna. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Amet tellus cras adipiscing enim eu. Tortor id aliquet lectus proin nibh nisl condimentum id venenatis. Rhoncus dolor purus non enim. Tincidunt dui ut ornare lectus sit amet. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar proin. Nulla facilisi etiam dignissim diam quis enim lobortis. Tempor nec feugiat nisl pretium. Scelerisque varius morbi enim nunc faucibus a pellentesque.</summary></entry><entry><title type="html">East - West, home is the best</title><link href="/baby-album/2018/11/19/third-post.html" rel="alternate" type="text/html" title="East - West, home is the best" /><published>2018-11-19T09:43:41+02:00</published><updated>2018-11-19T09:43:41+02:00</updated><id>/baby-album/2018/11/19/third-post</id><content type="html" xml:base="/baby-album/2018/11/19/third-post.html">&lt;section&gt;
 &lt;div class=&quot;post-title&quot;&gt;
 &lt;h2&gt;East - West, home is the best&lt;/h2&gt;
@@ -139,39 +73,6 @@ Enim tortor at auctor urna. Eget magna fermentum iaculis eu non diam phasellus v
 &lt;/div&gt;
 
 &lt;p&gt;A pellentesque sit amet porttitor eget. Facilisis mauris sit amet massa vitae tortor. Neque viverra justo nec ultrices dui sapien. Dolor sit amet consectetur adipiscing elit duis tristique sollicitudin nibh. Eget lorem dolor sed viverra ipsum nunc aliquet. Sed risus ultricies tristique nulla. Eu volutpat odio facilisis mauris sit amet massa vitae. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra. Egestas integer eget aliquet nibh praesent. Facilisis gravida neque convallis a cras semper. Ut sem viverra aliquet eget sit. Mattis rhoncus urna neque viverra justo. Montes nascetur ridiculus mus mauris vitae ultricies leo. Nulla malesuada pellentesque elit eget gravida cum sociis. Elit eget gravida cum sociis natoque penatibus et magnis. Augue neque gravida in fermentum et sollicitudin ac. Sit amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus. Arcu dui vivamus arcu felis bibendum ut tristique. Sapien et ligula ullamcorper malesuada proin. Purus viverra accumsan in nisl nisi scelerisque. Ut eu sem integer vitae. Maecenas ultricies mi eget mauris pharetra et ultrices neque ornare. Volutpat diam ut venenatis tellus in metus vulputate eu scelerisque. A iaculis at erat pellentesque adipiscing commodo elit at imperdiet.&lt;/p&gt;
-&lt;/section&gt;
-
-&lt;section class=&quot;register&quot;&gt;
-    &lt;input type=&quot;checkbox&quot; name=&quot;main-register-toggle&quot; id=&quot;main-register-toggle&quot; /&gt;
-    &lt;label for=&quot;main-register-toggle&quot; class=&quot;register-toggle&quot;&gt;&lt;span class=&quot;button&quot;&gt;Register&lt;/span&gt;&lt;/label&gt;
-    &lt;div class=&quot;form-wrapper register&quot;&gt;
-        &lt;div class=&quot;form-inner&quot;&gt;
-            &lt;form action=&quot;#&quot;&gt;
-                &lt;fieldset&gt;
-                    &lt;legend&gt;Register&lt;/legend&gt;
-                    &lt;p class=&quot;field&quot;&gt;
-                        &lt;label for=&quot;username&quot;&gt;Username&lt;/label&gt;
-                        &lt;input type=&quot;text&quot; name=&quot;username&quot; id=&quot;username&quot; /&gt;
-                    &lt;/p&gt;
-
-                    &lt;p class=&quot;field&quot;&gt;
-                        &lt;label for=&quot;email&quot;&gt;Email&lt;/label&gt;
-                        &lt;input type=&quot;email&quot; name=&quot;email&quot; id=&quot;email&quot; /&gt;
-                    &lt;/p&gt;
-
-                    &lt;p class=&quot;field&quot;&gt;
-                        &lt;label for=&quot;password&quot;&gt;Password&lt;/label&gt;
-                        &lt;input type=&quot;password&quot; name=&quot;password&quot; id=&quot;password&quot; /&gt;
-                    &lt;/p&gt;
-                    &lt;p class=&quot;field&quot;&gt;
-                        &lt;label for=&quot;confirm-password&quot;&gt;Confirm Password&lt;/label&gt;
-                        &lt;input type=&quot;password&quot; name=&quot;confirm-password&quot; id=&quot;confirm-password&quot; /&gt;
-                    &lt;/p&gt;
-                    &lt;input type=&quot;submit&quot; value=&quot;Register&quot; class=&quot;button&quot; /&gt;
-                &lt;/fieldset&gt;
-            &lt;/form&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
 &lt;/section&gt;</content><author><name></name></author><summary type="html">East - West, home is the best 19 Nov 2018 Enim tortor at auctor urna. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Amet tellus cras adipiscing enim eu. Tortor id aliquet lectus proin nibh nisl condimentum id venenatis. Rhoncus dolor purus non enim. Tincidunt dui ut ornare lectus sit amet. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar proin. Nulla facilisi etiam dignissim diam quis enim lobortis. Tempor nec feugiat nisl pretium. Scelerisque varius morbi enim nunc faucibus a pellentesque.</summary></entry><entry><title type="html">My first day full of adventures</title><link href="/baby-album/2018/11/18/second-post.html" rel="alternate" type="text/html" title="My first day full of adventures" /><published>2018-11-18T10:38:51+02:00</published><updated>2018-11-18T10:38:51+02:00</updated><id>/baby-album/2018/11/18/second-post</id><content type="html" xml:base="/baby-album/2018/11/18/second-post.html">&lt;section&gt;
 &lt;div class=&quot;post-title&quot;&gt;
 &lt;h2&gt;My first day full of adventures&lt;/h2&gt;
@@ -198,39 +99,6 @@ Felis bibendum ut tristique et egestas quis ipsum suspendisse ultrices. Manga si
 &lt;p&gt;Quis lectus nulla at volutpat diam ut venenatis tellus in. Lacus vel facilisis volutpat est velit egestas dui id. Ut faucibus pulvinar elementum integer enim neque. Eu consequat ac felis donec et odio. Sit amet aliquam id diam maecenas ultricies mi. Dictumst quisque sagittis purus sit amet volutpat consequat. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Orci phasellus egestas tellus rutrum. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Morbi tincidunt augue interdum velit euismod in pellentesque massa placerat. Ut enim blandit volutpat maecenas volutpat blandit aliquam. Vitae semper quis lectus nulla at volutpat diam. Mollis nunc sed id semper.&lt;/p&gt;
 
 &lt;p&gt;Ante metus dictum at tempor commodo ullamcorper a lacus. Amet porttitor eget dolor morbi non arcu risus. Sapien pellentesque habitant morbi tristique senectus et netus et. Morbi tristique senectus et netus. Purus gravida quis blandit turpis. Morbi leo urna molestie at elementum eu facilisis sed odio. Diam vel quam elementum pulvinar etiam. Quam lacus suspendisse faucibus interdum posuere lorem ipsum. Ipsum nunc aliquet bibendum enim facilisis gravida neque. Cursus sit amet dictum sit amet justo donec enim diam. Vitae suscipit tellus mauris a diam maecenas sed. Pharetra pharetra massa massa ultricies mi. In ornare quam viverra orci sagittis eu. Urna duis convallis convallis tellus id interdum velit laoreet id. Massa vitae tortor condimentum lacinia quis vel eros. Mauris pellentesque pulvinar pellentesque habitant morbi tristique. Interdum velit laoreet id donec ultrices tincidunt arcu. Scelerisque felis imperdiet proin fermentum leo vel. Lacus viverra vitae congue eu consequat ac. In iaculis nunc sed augue.&lt;/p&gt;
-&lt;/section&gt;
-
-&lt;section class=&quot;register&quot;&gt;
-    &lt;input type=&quot;checkbox&quot; name=&quot;main-register-toggle&quot; id=&quot;main-register-toggle&quot; /&gt;
-    &lt;label for=&quot;main-register-toggle&quot; class=&quot;register-toggle&quot;&gt;&lt;span class=&quot;button&quot;&gt;Register&lt;/span&gt;&lt;/label&gt;
-    &lt;div class=&quot;form-wrapper register&quot;&gt;
-        &lt;div class=&quot;form-inner&quot;&gt;
-            &lt;form action=&quot;#&quot;&gt;
-                &lt;fieldset&gt;
-                    &lt;legend&gt;Register&lt;/legend&gt;
-                    &lt;p class=&quot;field&quot;&gt;
-                        &lt;label for=&quot;username&quot;&gt;Username&lt;/label&gt;
-                        &lt;input type=&quot;text&quot; name=&quot;username&quot; id=&quot;username&quot; /&gt;
-                    &lt;/p&gt;
-
-                    &lt;p class=&quot;field&quot;&gt;
-                        &lt;label for=&quot;email&quot;&gt;Email&lt;/label&gt;
-                        &lt;input type=&quot;email&quot; name=&quot;email&quot; id=&quot;email&quot; /&gt;
-                    &lt;/p&gt;
-
-                    &lt;p class=&quot;field&quot;&gt;
-                        &lt;label for=&quot;password&quot;&gt;Password&lt;/label&gt;
-                        &lt;input type=&quot;password&quot; name=&quot;password&quot; id=&quot;password&quot; /&gt;
-                    &lt;/p&gt;
-                    &lt;p class=&quot;field&quot;&gt;
-                        &lt;label for=&quot;confirm-password&quot;&gt;Confirm Password&lt;/label&gt;
-                        &lt;input type=&quot;password&quot; name=&quot;confirm-password&quot; id=&quot;confirm-password&quot; /&gt;
-                    &lt;/p&gt;
-                    &lt;input type=&quot;submit&quot; value=&quot;Register&quot; class=&quot;button&quot; /&gt;
-                &lt;/fieldset&gt;
-            &lt;/form&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
 &lt;/section&gt;</content><author><name></name></author><summary type="html">My first day full of adventures 18 Nov 2018 Nec ultrices dui sapien eget mi. Sodales neque sodales ut etiam sit. Magna fringilla urna porttitor rhoncus dolor purus non enim. Platea dictumst vestibulum rhoncus est pellentesque. Amet aliquam id diam maecenas. Tincidunt nunc pulvinar sapien et ligula ullamcorper. Elementum nisi quis eleifend quam. Ultrices gravida dictum fusce ut placerat orci nulla pellentesque dignissim. Quisque sagittis purus sit amet volutpat. Odio aenean sed adipiscing diam donec. Ut sem nulla pharetra diam sit amet nisl.</summary></entry><entry><title type="html">At last I can see the light!</title><link href="/baby-album/2018/11/17/first-post.html" rel="alternate" type="text/html" title="At last I can see the light!" /><published>2018-11-17T11:15:06+02:00</published><updated>2018-11-17T11:15:06+02:00</updated><id>/baby-album/2018/11/17/first-post</id><content type="html" xml:base="/baby-album/2018/11/17/first-post.html">&lt;section&gt;
 &lt;div class=&quot;post-title&quot;&gt;
 &lt;h2&gt;At last I can see the light!&lt;/h2&gt;
@@ -253,39 +121,6 @@ Pharetra et ultrices neque ornare aenean euismod elementum nisi quis. Sed vulput
 &lt;p&gt;Consequat ac felis donec et odio pellentesque diam. Tellus in hac habitasse platea dictumst vestibulum. Sed viverra tellus in hac. Tellus integer feugiat scelerisque varius. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est. Purus non enim praesent elementum facilisis leo vel fringilla est. Pharetra et ultrices neque ornare aenean euismod elementum nisi quis. Sed vulputate mi sit amet mauris. Montes nascetur ridiculus mus mauris vitae. Egestas maecenas pharetra convallis posuere. At auctor urna nunc id cursus metus.&lt;/p&gt;
 
 &lt;p&gt;Est sit amet facilisis magna etiam tempor. Neque volutpat ac tincidunt vitae semper quis lectus nulla. Vitae purus faucibus ornare suspendisse sed nisi. Imperdiet sed euismod nisi porta lorem mollis aliquam ut. Nunc eget lorem dolor sed viverra ipsum nunc aliquet. Egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla. Sem et tortor consequat id porta nibh venenatis. Malesuada bibendum arcu vitae elementum curabitur vitae. Volutpat diam ut venenatis tellus in metus vulputate eu scelerisque. Arcu dictum varius duis at consectetur lorem donec. Pulvinar elementum integer enim neque volutpat. Diam sit amet nisl suscipit adipiscing bibendum est ultricies. Sed egestas egestas fringilla phasellus faucibus.&lt;/p&gt;
-&lt;/section&gt;
-
-&lt;section class=&quot;register&quot;&gt;
-    &lt;input type=&quot;checkbox&quot; name=&quot;main-register-toggle&quot; id=&quot;main-register-toggle&quot; /&gt;
-    &lt;label for=&quot;main-register-toggle&quot; class=&quot;register-toggle&quot;&gt;&lt;span class=&quot;button&quot;&gt;Register&lt;/span&gt;&lt;/label&gt;
-    &lt;div class=&quot;form-wrapper register&quot;&gt;
-        &lt;div class=&quot;form-inner&quot;&gt;
-            &lt;form action=&quot;#&quot;&gt;
-                &lt;fieldset&gt;
-                    &lt;legend&gt;Register&lt;/legend&gt;
-                    &lt;p class=&quot;field&quot;&gt;
-                        &lt;label for=&quot;username&quot;&gt;Username&lt;/label&gt;
-                        &lt;input type=&quot;text&quot; name=&quot;username&quot; id=&quot;username&quot; /&gt;
-                    &lt;/p&gt;
-
-                    &lt;p class=&quot;field&quot;&gt;
-                        &lt;label for=&quot;email&quot;&gt;Email&lt;/label&gt;
-                        &lt;input type=&quot;email&quot; name=&quot;email&quot; id=&quot;email&quot; /&gt;
-                    &lt;/p&gt;
-
-                    &lt;p class=&quot;field&quot;&gt;
-                        &lt;label for=&quot;password&quot;&gt;Password&lt;/label&gt;
-                        &lt;input type=&quot;password&quot; name=&quot;password&quot; id=&quot;password&quot; /&gt;
-                    &lt;/p&gt;
-                    &lt;p class=&quot;field&quot;&gt;
-                        &lt;label for=&quot;confirm-password&quot;&gt;Confirm Password&lt;/label&gt;
-                        &lt;input type=&quot;password&quot; name=&quot;confirm-password&quot; id=&quot;confirm-password&quot; /&gt;
-                    &lt;/p&gt;
-                    &lt;input type=&quot;submit&quot; value=&quot;Register&quot; class=&quot;button&quot; /&gt;
-                &lt;/fieldset&gt;
-            &lt;/form&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
 &lt;/section&gt;</content><author><name></name></author><summary type="html">At last I can see the light! 17 Nov 2018 Pharetra et ultrices neque ornare aenean euismod elementum nisi quis. Sed vulputate mi sit amet mauris. Montes nascetur ridiculus mus mauris vitae. Egestas maecenas pharetra convallis posuere. At auctor urna nunc id cursus metus.</summary></entry><entry><title type="html">How did it all start</title><link href="/baby-album/2018/11/16/test-post.html" rel="alternate" type="text/html" title="How did it all start" /><published>2018-11-16T11:15:06+02:00</published><updated>2018-11-16T11:15:06+02:00</updated><id>/baby-album/2018/11/16/test-post</id><content type="html" xml:base="/baby-album/2018/11/16/test-post.html">&lt;section&gt;
 &lt;div class=&quot;post-title&quot;&gt;
 &lt;h2&gt;How did it all start&lt;/h2&gt;
@@ -304,37 +139,4 @@ Malesuada bibendum arcu vitae elementum curabitur vitae. Volutpat diam ut venena
 &lt;p&gt;Consequat ac felis donec et odio pellentesque diam. Tellus in hac habitasse platea dictumst vestibulum. Sed viverra tellus in hac. Tellus integer feugiat scelerisque varius. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est. Purus non enim praesent elementum facilisis leo vel fringilla est. Pharetra et ultrices neque ornare aenean euismod elementum nisi quis. Sed vulputate mi sit amet mauris. Montes nascetur ridiculus mus mauris vitae. Egestas maecenas pharetra convallis posuere. At auctor urna nunc id cursus metus.&lt;/p&gt;
 
 &lt;p&gt;Est sit amet facilisis magna etiam tempor. Neque volutpat ac tincidunt vitae semper quis lectus nulla. Vitae purus faucibus ornare suspendisse sed nisi. Imperdiet sed euismod nisi porta lorem mollis aliquam ut. Nunc eget lorem dolor sed viverra ipsum nunc aliquet. Egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla. Sem et tortor consequat id porta nibh venenatis. Malesuada bibendum arcu vitae elementum curabitur vitae. Volutpat diam ut venenatis tellus in metus vulputate eu scelerisque. Arcu dictum varius duis at consectetur lorem donec. Pulvinar elementum integer enim neque volutpat. Diam sit amet nisl suscipit adipiscing bibendum est ultricies. Sed egestas egestas fringilla phasellus faucibus.&lt;/p&gt;
-&lt;/section&gt;
-
-&lt;section class=&quot;register&quot;&gt;
-    &lt;input type=&quot;checkbox&quot; name=&quot;main-register-toggle&quot; id=&quot;main-register-toggle&quot; /&gt;
-    &lt;label for=&quot;main-register-toggle&quot; class=&quot;register-toggle&quot;&gt;&lt;span class=&quot;button&quot;&gt;Register&lt;/span&gt;&lt;/label&gt;
-    &lt;div class=&quot;form-wrapper register&quot;&gt;
-        &lt;div class=&quot;form-inner&quot;&gt;
-            &lt;form action=&quot;#&quot;&gt;
-                &lt;fieldset&gt;
-                    &lt;legend&gt;Register&lt;/legend&gt;
-                    &lt;p class=&quot;field&quot;&gt;
-                        &lt;label for=&quot;username&quot;&gt;Username&lt;/label&gt;
-                        &lt;input type=&quot;text&quot; name=&quot;username&quot; id=&quot;username&quot; /&gt;
-                    &lt;/p&gt;
-
-                    &lt;p class=&quot;field&quot;&gt;
-                        &lt;label for=&quot;email&quot;&gt;Email&lt;/label&gt;
-                        &lt;input type=&quot;email&quot; name=&quot;email&quot; id=&quot;email&quot; /&gt;
-                    &lt;/p&gt;
-
-                    &lt;p class=&quot;field&quot;&gt;
-                        &lt;label for=&quot;password&quot;&gt;Password&lt;/label&gt;
-                        &lt;input type=&quot;password&quot; name=&quot;password&quot; id=&quot;password&quot; /&gt;
-                    &lt;/p&gt;
-                    &lt;p class=&quot;field&quot;&gt;
-                        &lt;label for=&quot;confirm-password&quot;&gt;Confirm Password&lt;/label&gt;
-                        &lt;input type=&quot;password&quot; name=&quot;confirm-password&quot; id=&quot;confirm-password&quot; /&gt;
-                    &lt;/p&gt;
-                    &lt;input type=&quot;submit&quot; value=&quot;Register&quot; class=&quot;button&quot; /&gt;
-                &lt;/fieldset&gt;
-            &lt;/form&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
 &lt;/section&gt;</content><author><name></name></author><summary type="html">How did it all start 16 Nov 2018 Malesuada bibendum arcu vitae elementum curabitur vitae. Volutpat diam ut venenatis tellus in metus vulputate eu scelerisque. Arcu dictum varius duis at consectetur lorem donec. Pulvinar elementum integer enim neque volutpat. Diam sit amet nisl suscipit adipiscing bibendum est ultricies. Sed egestas egestas fringilla phasellus faucibus.</summary></entry></feed>

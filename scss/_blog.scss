@@ -8,6 +8,7 @@ body.blog {
 
     .posts {
         border-radius: 0.5rem;
+        border: 1px solid #ddd;
         padding: $main-top-wsp*2;
         height: 100vh;
         overflow: auto;

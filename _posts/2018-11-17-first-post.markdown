@@ -29,4 +29,3 @@ Pharetra et ultrices neque ornare aenean euismod elementum nisi quis. Sed vulput
 <p>Est sit amet facilisis magna etiam tempor. Neque volutpat ac tincidunt vitae semper quis lectus nulla. Vitae purus faucibus ornare suspendisse sed nisi. Imperdiet sed euismod nisi porta lorem mollis aliquam ut. Nunc eget lorem dolor sed viverra ipsum nunc aliquet. Egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla. Sem et tortor consequat id porta nibh venenatis. Malesuada bibendum arcu vitae elementum curabitur vitae. Volutpat diam ut venenatis tellus in metus vulputate eu scelerisque. Arcu dictum varius duis at consectetur lorem donec. Pulvinar elementum integer enim neque volutpat. Diam sit amet nisl suscipit adipiscing bibendum est ultricies. Sed egestas egestas fringilla phasellus faucibus.</p>
 </section>
 
-{% include register.html %}
