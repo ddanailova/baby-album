@@ -7,12 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ site.title }}</title>
     <link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css">
-    <script src="{{ site.baseurl }}/scripts/scripts.js"></script>
+    <!-- <script src="{{ site.baseurl }}/scripts/scripts.js"></script> -->
 </head>
 <body class="{% if page.type %}{{ page.type }} {% endif %}{% if page.title %}{{ page.title | slugify }}{% else %}home{% endif %}">
 
-    <input type="checkbox" id="gender-main-toggle-boy" name="gender-main-toggle-boy">
-    <input type="checkbox" id="gender-main-toggle-girl" name="gender-main-toggle-girl">
+    <!-- <input type="checkbox" id="gender-main-toggle-boy" name="gender-main-toggle-boy"> -->
+    <input type="checkbox" id="gender-main-toggle" name="gender-main-toggle">
     <div class="site">
         <header class="site-header">
             <div class="site-branding">
@@ -20,8 +20,13 @@
                 <p class="site-desc"><a href="{{ site.baseurl }}/login">Join me</a> and {{ site.description}}!</p>
 
                 <div class='site-gender'>
-                    <p><label class="gender-toggle boy" for="gender-main-toggle-boy">Boy</label> / <label class="gender-toggle girl"
-                            for="gender-main-toggle-girl">Girl</label></p>
+                    <p>Gender:
+                        <!-- <label class="gender-toggle boy" for="gender-main-toggle-boy"> -->
+                        <!-- </label> /  -->
+                        <label class="gender-toggle" for="gender-main-toggle">
+                                <span class="boy"> Boy</span><span class="girl">Girl</span>
+                        </label>
+                        </p>
                 </div>
             </div>
 

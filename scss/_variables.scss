@@ -13,19 +13,3 @@ $opegue:1;
 $main-color:#333;
 $main-top-wsp:2rem;
 $main-side-wsp:10rem;
-
-/*
-/**Changing the main color depending on the gender **/
-
-#gender-main-toggle-girl,
-#gender-main-toggle-boy {
-    display: none;
-}
-
-#gender-main-toggle-girl:checked+.site {
-    --highlight-color: coral;
-}
-
-#gender-main-toggle-boy:checked+#gender-main-toggle-girl+.site {
-    --highlight-color: #89cff0;
-}

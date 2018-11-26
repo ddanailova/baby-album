@@ -1,4 +1,6 @@
 
+/* Styles for the header*/
+
 .site-header {
     padding-top: $main-top-wsp;
 }
@@ -35,17 +37,46 @@
             @at-root {
                 .gender-toggle{
                     cursor: pointer;
-                    &.boy{
-                        color:#89cff0;
+                    span.girl {
+                        display: none;
+                        color: coral;
                     }
-                    &.girl{
-                        color:coral;
+                    span.boy {
+                        color:  #7285a5;
                     }
+                    // &.boy{
+                    //     color:#89cff0;
+                    // }
+                    // &.girl{
+                    //     color:coral;
+                    // }
                 }
             }
         }
     }
 }
+
+/*
+/**Changing the main color depending on the gender **/
+
+// #gender-main-toggle-boy, 
+#gender-main-toggle{
+    display: none;
+}
+
+#gender-main-toggle:checked+.site {
+    --highlight-color: #7285a5;
+    span.girl {
+        display: inherit;
+    }
+    span.boy {
+        display: none;
+    }
+}
+
+// #gender-main-toggle-boy:checked+#gender-main-toggle-girl+.site {
+//     --highlight-color: #89cff0;
+// }
 
 @media screen and (max-width:812px) {
     .site-branding {

@@ -7,12 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Baby Album</title>
     <link rel="stylesheet" href="/baby-album/css/styles.css">
-    <script src="/baby-album/scripts/scripts.js"></script>
+    <!-- <script src="/baby-album/scripts/scripts.js"></script> -->
 </head>
 <body class="page my-first-day-full-of-adventures">
 
-    <input type="checkbox" id="gender-main-toggle-boy" name="gender-main-toggle-boy">
-    <input type="checkbox" id="gender-main-toggle-girl" name="gender-main-toggle-girl">
+    <!-- <input type="checkbox" id="gender-main-toggle-boy" name="gender-main-toggle-boy"> -->
+    <input type="checkbox" id="gender-main-toggle" name="gender-main-toggle">
     <div class="site">
         <header class="site-header">
             <div class="site-branding">
@@ -20,8 +20,13 @@
                 <p class="site-desc"><a href="/baby-album/login">Join me</a> and let's discover the world together!</p>
 
                 <div class='site-gender'>
-                    <p><label class="gender-toggle boy" for="gender-main-toggle-boy">Boy</label> / <label class="gender-toggle girl"
-                            for="gender-main-toggle-girl">Girl</label></p>
+                    <p>Gender:
+                        <!-- <label class="gender-toggle boy" for="gender-main-toggle-boy"> -->
+                        <!-- </label> /  -->
+                        <label class="gender-toggle" for="gender-main-toggle">
+                                <span class="boy"> Boy</span><span class="girl">Girl</span>
+                        </label>
+                        </p>
                 </div>
             </div>
 
@@ -69,13 +74,14 @@ Felis bibendum ut tristique et egestas quis ipsum suspendisse ultrices. Manga si
 
 </main>
 
-            <footer class="site-footer">
-                <p>&copy; My Imaginary Friend Design Studio Ltd.</p>
-                <p>Images <a href="https://unsplash.com/">Unsplash</a></p>
-            </footer>
+<footer class="site-footer">
+    <p>&copy; My Imaginary Friend Design Studio Ltd.</p>
+    <p>Images <a href="https://unsplash.com/">Unsplash</a></p>
+</footer>
 
-        </div>
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-        <script>$(function() { toggleGender() });</script>
-    </body>
+</div>
+<!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->
+<!-- <script>$(function() { toggleGender() });</script> -->
+</body>
+
 </html>
