@@ -20,7 +20,7 @@ Nec ultrices dui sapien eget mi. Sodales neque sodales ut etiam sit. Magna fring
 
 <blockquote>
 Felis bibendum ut tristique et egestas quis ipsum suspendisse ultrices. Manga sit amet purus gravida quis bandit.
-<p class="author">Lilly's Mom</p>
+<p class="author"><span id="baby-name"></span>'s Mom</p>
 </blockquote>
 
 <div class="media">

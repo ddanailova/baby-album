@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/baby-album/feed.xml" rel="self" type="application/atom+xml" /><link href="/baby-album/" rel="alternate" type="text/html" /><updated>2018-11-28T14:03:27+02:00</updated><id>/baby-album/feed.xml</id><title type="html">Baby Album</title><subtitle>let's discover the world together</subtitle><entry><title type="html">Some days it’s so hard to get out of bed</title><link href="/baby-album/2018/11/21/fift-post.html" rel="alternate" type="text/html" title="Some days it's so hard to get out of bed" /><published>2018-11-21T09:44:41+02:00</published><updated>2018-11-21T09:44:41+02:00</updated><id>/baby-album/2018/11/21/fift-post</id><content type="html" xml:base="/baby-album/2018/11/21/fift-post.html">&lt;section&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="/baby-album/feed.xml" rel="self" type="application/atom+xml" /><link href="/baby-album/" rel="alternate" type="text/html" /><updated>2018-11-28T19:39:18+02:00</updated><id>/baby-album/feed.xml</id><title type="html">Baby Album</title><subtitle>let's discover the world together</subtitle><entry><title type="html">Some days it’s so hard to get out of bed</title><link href="/baby-album/2018/11/21/fift-post.html" rel="alternate" type="text/html" title="Some days it's so hard to get out of bed" /><published>2018-11-21T09:44:41+02:00</published><updated>2018-11-21T09:44:41+02:00</updated><id>/baby-album/2018/11/21/fift-post</id><content type="html" xml:base="/baby-album/2018/11/21/fift-post.html">&lt;section&gt;
 &lt;div class=&quot;post-title&quot;&gt;
 &lt;h2&gt;Some days it's so hard to get out of bed&lt;/h2&gt;
 &lt;p class=&quot;date&quot;&gt;21 Nov 2018&lt;/p&gt;
@@ -14,7 +14,7 @@
   &lt;/div&gt;
   &lt;blockquote&gt;
     Rhoncus dolor purus non enimy.
-    &lt;p class=&quot;author&quot;&gt;Lilly's Mom&lt;/p&gt;
+    &lt;p class=&quot;author&quot;&gt;&lt;span id=&quot;baby-name&quot;&gt;&lt;/span&gt;'s Mom&lt;/p&gt;
 &lt;/blockquote&gt;
   &lt;div class=&quot;media&quot;&gt;
     &lt;img src=&quot;/baby-album/images/image14.jpg&quot; alt=&quot;Baby&quot; /&gt;
@@ -39,7 +39,7 @@ Enim tortor at auctor urna. Eget magna fermentum iaculis eu non diam phasellus v
 
 &lt;blockquote&gt;
  Vitae suscipit tellus mauris a diam maecenas sed. Pharetra pharetra massa massa ultricies mi. In ornare quam viverra orci spaghetti.
-&lt;p class=&quot;author&quot;&gt;Lilly's Mom&lt;/p&gt;
+&lt;p class=&quot;author&quot;&gt;&lt;span id=&quot;baby-name&quot;&gt;&lt;/span&gt;'s Mom&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt; Massa vitae tortor condimentum lacinia quis vel eros. Mauris pellentesque pulvinar pellentesque habitant morbi tristique. Interdum velit laoreet id donec ultrices tincidunt arcu. Scelerisque felis imperdiet proin fermentum leo vel. Lacus viverra vitae congue eu consequat ac. In iaculis nunc sed augue.&lt;/p&gt;
@@ -89,7 +89,7 @@ Nec ultrices dui sapien eget mi. Sodales neque sodales ut etiam sit. Magna fring
 
 &lt;blockquote&gt;
 Felis bibendum ut tristique et egestas quis ipsum suspendisse ultrices. Manga sit amet purus gravida quis bandit.
-&lt;p class=&quot;author&quot;&gt;Lilly's Mom&lt;/p&gt;
+&lt;p class=&quot;author&quot;&gt;&lt;span id=&quot;baby-name&quot;&gt;&lt;/span&gt;'s Mom&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;div class=&quot;media&quot;&gt;

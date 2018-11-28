@@ -7,10 +7,10 @@ layout: site
 
 <section class="about">
   <article class="text-conteiner">
-    <h2>My name is Lilly</h2>
+    <h2>My name is <span id="baby-name"></span></h2>
     <p>
-      Hello! My name is Lilly and I am a fictional character. My sole purpose is inhabiting this blog and giving it
-      life. Some of the lines that you will read here will make no sense to you but don't worry, there is a reason for
+      Hello! My name is <span id="baby-name"></span> and I am a fictional character. My sole purpose is inhabiting this
+      blog and giving it life. Some of the lines that you will read here will make no sense to you but don't worry, there is a reason for
       that. See, in my world, we don't use the same words that you do. Like in every foreign country you visit it takes
       some time to adjust and start understanding the people around you. My world, it is exactly the same. The more
       you look, the more meaning you will find and the more you will start understanding my habitat. If I was a real
@@ -19,7 +19,9 @@ layout: site
       more carefully and if you start seeing the meaning it is because you have crossed the border and you are now in
       my world. If I was a real person, I would also be a curious one, so don't worry and let's explore together!
     </p>
-    <a href="{{ site.baseurl }}/about"><div class="fas fa-caret-left"><span class="read-more button">More About me</span></div></a>
+    <a href="{{ site.baseurl }}/about">
+      <div class="fas fa-caret-left"><span class="read-more button">More About me</span></div>
+    </a>
   </article>
 </section>
 
@@ -36,11 +38,13 @@ layout: site
   <div class="media">
     <img src="{{ site.baseurl }}/images/image10.jpg" alt="Baby">
   </div>
-  <a href="{{ site.baseurl }}/gallery"><div class="fas fa-caret-left"><span class="read-more button">More Pictures</span></div></a>
+  <a href="{{ site.baseurl }}/gallery">
+    <div class="fas fa-caret-left"><span class="read-more button">More Pictures</span></div>
+  </a>
 </section>
 
 <section class="posts">
-    <h2>Most Recent Posts</h2>
+  <h2>Most Recent Posts</h2>
   <ul class="listing">
     {% for post in site.posts limit:5 %}
     <li>
@@ -63,9 +67,12 @@ layout: site
     <h2>Let's celebrate my First Birthday together!</h2>
     <p>Save the date: <span>Saturday, March 23, 2019</span></p>
     <p>
-      It has been only an year but the world of Lilly has grown quite a lot. Do you feel like some cake to celebrate? Me and Lilly definitely do, so let's have a party!
+      It has been only an year but the world of <span id="baby-name"></span> has grown quite a lot. Do you feel like some cake to celebrate?
+      Me and <span id="baby-name"></span> definitely do, so let's have a party!
     </p>
-    <a href="{{ site.baseurl }}/events"><div class="fas fa-caret-left"><span class="read-more button">More Information</span></div></a>
+    <a href="{{ site.baseurl }}/events">
+      <div class="fas fa-caret-left"><span class="read-more button">More Information</span></div>
+    </a>
   </section>
 
 </section>

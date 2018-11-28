@@ -50,16 +50,26 @@
 
 /*
 /**Changing the main color depending on the gender **/
-
+#baby-name{
+    &:after{
+        display: inline;
+        content: "Lilly";
+    }
+}
 #gender-main-toggle {
     display: none;
 }
 
 #gender-main-toggle:checked+.site {
-    --highlight-red:114;
-    --highlight-green:133;
-    --highlight-blue:165;
+    --highlight-red:0;
+    --highlight-green:142;
+    --highlight-blue:204;
     --highlight-color:rgb(var(--highlight-red),var(--highlight-green),var(--highlight-blue));
+    #baby-name{
+        &:after{
+            content: "Robin";
+        }
+    }
 
     span.girl {
         display: none;
