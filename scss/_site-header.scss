@@ -1,4 +1,3 @@
-
 /* Styles for the header*/
 
 .site-header {
@@ -15,7 +14,7 @@
 
     a {
         text-decoration: none;
-        color:var(--highlight-color);
+        color: var(--highlight-color);
     }
 
     @at-root {
@@ -25,9 +24,7 @@
             font-weight: bold;
         }
 
-        & .site-desc{
-
-        }
+        & .site-desc {}
 
         & .site-gender {
             position: absolute;
@@ -35,21 +32,16 @@
             right: 0;
 
             @at-root {
-                .gender-toggle{
+                .gender-toggle {
                     cursor: pointer;
-                    span.girl {
-                        display: none;
-                        color: coral;
+
+                    span {
+                        color: var(--highlight-color);
+
+                        &.boy {
+                            display: none;
+                        }
                     }
-                    span.boy {
-                        color:  #7285a5;
-                    }
-                    // &.boy{
-                    //     color:#89cff0;
-                    // }
-                    // &.girl{
-                    //     color:coral;
-                    // }
                 }
             }
         }
@@ -59,31 +51,28 @@
 /*
 /**Changing the main color depending on the gender **/
 
-// #gender-main-toggle-boy, 
-#gender-main-toggle{
+#gender-main-toggle {
     display: none;
 }
 
 #gender-main-toggle:checked+.site {
     --highlight-color: #7285a5;
+
     span.girl {
-        display: inherit;
-    }
-    span.boy {
         display: none;
+    }
+
+    span.boy {
+        display: inherit;
     }
 }
 
-// #gender-main-toggle-boy:checked+#gender-main-toggle-girl+.site {
-//     --highlight-color: #89cff0;
-// }
 
 @media screen and (max-width:812px) {
     .site-branding {
-       & .site-gender {
-        bottom: 100%;
-        transform: translateY(50%);
-    }
+        & .site-gender {
+            bottom: 100%;
+            transform: translateY(50%);
+        }
     }
 }
-

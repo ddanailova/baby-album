@@ -110,21 +110,10 @@
             margin-right: 0;
         }
     }
-
-    body.login {
-        .main-nav {
-            top: $main-top-wsp*2;
-        }
-
-        .site-branding  {
-            display: none;
-        }
-    }
 }
 
 @media screen and (max-width:375px){
     .main-nav {
-        min-width: 50%;
         & ul li span {
            font-size: 0.9rem;
         }

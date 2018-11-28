@@ -1,4 +1,10 @@
 /*Styles for Regulas full width form*/
+body.login {
+    .site-gender {
+        z-index:105;
+    }
+}
+
 .form-wrapper {
     position: absolute;
     top: 0;
@@ -45,6 +51,9 @@ form {
         font-size: 2rem;
         font-weight: bold;
         margin-bottom: $main-top-wsp;
+        display: table;
+        float: none;
+        margin: 0 auto;
     }
 
     p {
@@ -70,13 +79,13 @@ form {
         background: rgba(#333, 0.1);
         color: black;
         border-bottom: $highlight-border;
-        border-top:2px solid rgba(#ccc, 0.1);
-        border-left:2px solid rgba(#ccc, 0.1);
-        border-right:2px solid rgba(#ccc, 0.1);
+        border-top: 2px solid rgba(#ccc, 0.1);
+        border-left: 2px solid rgba(#ccc, 0.1);
+        border-right: 2px solid rgba(#ccc, 0.1);
 
         &:focus,
-        &:active{
-            border:$highlight-border;
+        &:active {
+            border: $highlight-border;
         }
     }
 
@@ -98,7 +107,7 @@ form {
         position: relative;
         flex-direction: colum;
         margin: 0;
-        
+
         .close-toggle {
             position: absolute;
             top: 0;
@@ -107,7 +116,7 @@ form {
             color: var(--highlight-color);
             z-index: 1000;
         }
-        
+
         form {
             padding: $main-top-wsp 0;
             margin: 0 auto;
@@ -116,13 +125,14 @@ form {
 
             input[name="username"],
             input[name="email"] {
-                background:rgba(#333, 0.2);
-                border-top:2px solid rgba(#bbb, 0.2);
-                border-left:2px solid rgba(#bbb, 0.2);
-                border-right:2px solid rgba(#bbb, 0.2);
+                background: rgba(#333, 0.2);
+                border-top: 2px solid rgba(#bbb, 0.2);
+                border-left: 2px solid rgba(#bbb, 0.2);
+                border-right: 2px solid rgba(#bbb, 0.2);
+
                 &:focus,
-                &:active{
-                    border:$highlight-border;
+                &:active {
+                    border: $highlight-border;
                 }
             }
         }
@@ -166,12 +176,13 @@ form {
 }
 
 @media screen and (max-width:1200px) {
+
     /*Regular form responsive*/
     .form-wrapper {
         @at-root {
             .form-inner {
                 width: 65%;
-                margin: $main-top-wsp*4  $main-top-wsp*6 $main-top-wsp*4 auto;
+                margin: $main-top-wsp*4 $main-top-wsp*6 $main-top-wsp*4 auto;
             }
         }
     }
@@ -197,7 +208,7 @@ form {
 
                 fieldset {
                     background: white;
-                    width: 50%;
+                    min-width: 50%;
                     padding: 0 $main-top-wsp $main-top-wsp $main-top-wsp;
 
                     input[type="text"],
@@ -215,48 +226,82 @@ form {
     }
 }
 
+
 @media screen and (max-width:1100px) {
+
     /*Regular form responsive*/
     .form-wrapper {
         @at-root {
             .form-inner {
                 width: 70%;
-                margin: $main-top-wsp*4  $main-top-wsp*4 $main-top-wsp*4 auto;
+                margin: $main-top-wsp*4 $main-top-wsp*4 $main-top-wsp*4 auto;
             }
         }
     }
 }
 
 @media screen and (max-width:1000px) {
+
     /*Regular form responsive*/
     .form-wrapper {
         @at-root {
             .form-inner {
-                
-                margin: $main-top-wsp*4  $main-top-wsp*3 $main-top-wsp*4 auto;
+
+                margin: $main-top-wsp*4 $main-top-wsp*3 $main-top-wsp*4 auto;
             }
         }
     }
 }
 
 @media screen and (max-width:900px) {
+
     /*Regular form responsive*/
     .form-wrapper {
         @at-root {
             .form-inner {
                 width: 72%;
-                margin: $main-top-wsp*4  $main-top-wsp*2 $main-top-wsp*4 auto;
+                margin: $main-top-wsp*4 $main-top-wsp*2 $main-top-wsp*4 auto;
             }
         }
     }
 }
 
 @media screen and (max-width:812px) {
+
     /*Regular form responsive*/
+    body.login {
+        .main-nav {
+            top: $main-top-wsp*2;
+        }
+
+        .site-branding  {
+            display: none;
+        }
+    }
+
     .form-wrapper {
         @at-root {
             .form-inner {
                 width: 90%;
+                margin: ($main-top-wsp*6) auto;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:375px) {
+
+    /*Regular form responsive*/
+    body.login {
+        .site-content {
+            padding: 0;
+        }
+    }
+
+    .form-wrapper {
+        @at-root {
+            .form-inner {
+                width: 100%;
                 margin: ($main-top-wsp*6) auto;
             }
         }

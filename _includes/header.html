@@ -10,8 +10,6 @@
     <!-- <script src="{{ site.baseurl }}/scripts/scripts.js"></script> -->
 </head>
 <body class="{% if page.type %}{{ page.type }} {% endif %}{% if page.title %}{{ page.title | slugify }}{% else %}home{% endif %}">
-
-    <!-- <input type="checkbox" id="gender-main-toggle-boy" name="gender-main-toggle-boy"> -->
     <input type="checkbox" id="gender-main-toggle" name="gender-main-toggle">
     <div class="site">
         <header class="site-header">
@@ -21,8 +19,6 @@
 
                 <div class='site-gender'>
                     <p>Gender:
-                        <!-- <label class="gender-toggle boy" for="gender-main-toggle-boy"> -->
-                        <!-- </label> /  -->
                         <label class="gender-toggle" for="gender-main-toggle">
                                 <span class="boy"> Boy</span><span class="girl">Girl</span>
                         </label>

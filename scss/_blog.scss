@@ -10,8 +10,8 @@ body.blog {
         border-radius: 0.5rem;
         border: 1px solid #ddd;
         padding: $main-top-wsp*2;
-        height: 100vh;
-        overflow: auto;
+        // height: 100vh;
+        // overflow: auto;
         background-color: #f6eee3;
         background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23f08080' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
         box-shadow: 0 0 1.5rem 0.1rem rgba(black, 0.1) inset;
@@ -21,6 +21,7 @@ body.blog {
             box-shadow: $shadow;
             position: relative;
             padding: 5rem 0;
+            margin-bottom: $main-top-wsp*2;
             background: white;
 
             &:before {
