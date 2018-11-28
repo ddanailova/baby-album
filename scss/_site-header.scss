@@ -56,7 +56,10 @@
 }
 
 #gender-main-toggle:checked+.site {
-    --highlight-color: #7285a5;
+    --highlight-red:114;
+    --highlight-green:133;
+    --highlight-blue:165;
+    --highlight-color:rgb(var(--highlight-red),var(--highlight-green),var(--highlight-blue));
 
     span.girl {
         display: none;
@@ -65,8 +68,30 @@
     span.boy {
         display: inherit;
     }
-}
 
+    .listing li {
+        background-color: #ececfb;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%237285a5' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+        &:active,
+        &:focus,
+        &:hover {
+            background: var(--highlight-color);
+            transition: background var(--main-animation);}
+    }
+}
+#gender-main-toggle:checked+.site.blog{
+    .posts {
+        background-color: #ececfb;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%237285a5' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+       
+        .listing{
+            background: white;
+            li{
+                background: white;
+            }
+        }
+    }
+}
 
 @media screen and (max-width:812px) {
     .site-branding {

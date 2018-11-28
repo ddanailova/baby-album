@@ -1,14 +1,13 @@
 /*Styles for blog page*/
 
-
-body.blog {
+.site.blog {
     .site-content h1 {
         text-align: center;
     }
 
     .posts {
         border-radius: 0.5rem;
-        border: 1px solid #ddd;
+        border: $border-thin #ddd;
         padding: $main-top-wsp*2;
         // height: 100vh;
         // overflow: auto;
@@ -37,15 +36,14 @@ body.blog {
             }
 
             li {
-                $line-border: 2px solid #ddd;
                 background: white;
                 box-shadow: none;
-                border-bottom: $line-border;
+                border-bottom: $border-thick #ddd;
                 vertical-align: middle;
 
                 &:first-child {
                     text-align: inherit;
-                    border-top: $line-border;
+                    border-top: $border-thick #ddd;
                 }
 
                 a {
@@ -90,17 +88,15 @@ body.blog {
 }
 
 @media screen and (max-width:1200px) {
-    body.blog {
+    .site.blog {
         .posts {
             margin-top: $main-top-wsp;
         }
     }
 }
 
-
-
 @media screen and (max-width:1100px) {
-    body.blog {
+    .site.blog {
         .posts {
             padding: $main-top-wsp*2 $main-top-wsp;
             $side-space: 4rem;
@@ -133,7 +129,7 @@ body.blog {
 }
 
 @media screen and (max-width:700px) {
-    body.blog {
+    .site.blog {
         .posts {
             .listing {
                 &:before {

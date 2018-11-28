@@ -62,151 +62,151 @@
 
 /*Styles for home page*/
 
-body.home {
-    .site {
-        .site-content {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            grid-auto-flow: row dense;
+.site.home {
+    .site-content {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-flow: row dense;
 
-            &>section {
-                padding: $main-top-wsp*2 0.5rem;
-            }
+        &>section {
+            padding: $main-top-wsp*2 0.5rem;
+        }
 
-            h1 {
-                grid-column: 1 / -1;
-            }
+        h1 {
+            grid-column: 1 / -1;
+        }
+
+        h2 {
+            animation: none;
+        }
+
+        .posts {
+            grid-column: 1 / -1;
+            border-top: $border-thin #ddd;
+            border-bottom: $border-thin #ddd;
 
             h2 {
-                animation: none;
+                text-align: center;
+            }
+        }
+
+        .about {
+            grid-column: 1/ span 2;
+
+            .text-conteiner {
+                padding: $main-top-wsp * 2 $main-top-wsp * 2 $main-top-wsp * 2 0;
             }
 
-            .posts {
+            p {
+                padding-bottom: 3rem;
+            }
+        }
+
+        .gallery {
+            grid-column: 3 / span 2;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-auto-flow: row dense;
+            gap: 0.1rem 1.1rem;
+
+            .media:nth-child(1),
+            .media:nth-child(2) {
+                align-self: end;
+            }
+
+            a:last-child {
                 grid-column: 1 / -1;
-                border-top: 1px solid #ddd;
-                border-bottom: 1px solid #ddd;
+                justify-self: end;
+            }
+        }
 
-                h2 {
-                    text-align: center;
-                }
+        .events {
+            grid-column: 1 / -1;
+            display: flex;
+            padding-bottom: 0;
+
+            section {
+
+                flex: 1 0 50%;
             }
 
-            .about {
-                grid-column: 1/ span 2;
-
-                .text-conteiner {
-                    padding: $main-top-wsp * 2 $main-top-wsp * 2 $main-top-wsp * 2 0;
-                }
+            .text-conteiner {
+                padding: 0 $main-top-wsp*2;
 
                 p {
                     padding-bottom: 3rem;
                 }
-            }
 
-            .gallery {
-                grid-column: 3 / span 2;
-                display: grid;
-                grid-template-columns: repeat(2, 1fr);
-                grid-auto-flow: row dense;
-                gap: 0.1rem 1.1rem;
+                h2+p {
+                    font-style: italic;
 
-                .media:nth-child(1),
-                .media:nth-child(2) {
-                    align-self: end;
+                    span {
+                        color: var(--highlight-color);
+                        font-style: normal;
+                    }
                 }
 
                 a:last-child {
-                    grid-column: 1 / -1;
-                    justify-self: end;
+                    margin: 0 auto;
                 }
             }
 
-            .events {
-                grid-column: 1 / -1;
-                display: flex;
-                padding-bottom: 0;
-
-                section {
-
-                    flex: 1 0 50%;
-                }
-
-                .text-conteiner {
-                    padding: 0 $main-top-wsp*2;
-
-                    p {
-                        padding-bottom: 3rem;
-                    }
-
-                    h2+p {
-                        font-style: italic;
-
-                        span {
-                            color: var(--highlight-color);
-                            font-style: normal;
-                        }
-                    }
-
-                    a:last-child {
-                        margin: 0 auto;
-                    }
-                }
-
-                .media {
-                    img {
-                        width: 100%;
-                        height: 100%;
-                        object-fit: cover;
-                    }
+            .media {
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
                 }
             }
+        }
 
-            .register {
-                grid-column: 1 / -1;
-                padding-bottom: 0;
-                padding-top: 0;
+        .register {
+            grid-column: 1 / -1;
+            padding-bottom: 0;
+            padding-top: 0;
 
-            }
         }
     }
 }
 
 @media screen and (max-width:1200px) {
-    .site{
+    .site {
         padding: 0 $main-side-wsp/2 0 $main-side-wsp;
+
         h1 {
-            padding:$main-top-wsp 0;
+            padding: $main-top-wsp 0;
         }
     }
-    body.home {
-        .site {
-            .site-content {
+
+    .site.home {
+        .site-content {
+            display: block;
+
+            .about {
+                border-bottom: $border-thin #ddd;
+                padding-top: $main-top-wsp;
+
+                .text-conteiner {
+                    padding: 0;
+                }
+            }
+
+            .events {
                 display: block;
 
-                .about {
-                    border-bottom: 1px solid #ddd;
-                    padding-top: $main-top-wsp;
-                    .text-conteiner {
-                        padding: 0;
-                    }
-                }
-
-                .events {
-                    display: block;
-
-                    .text-conteiner {
-                        padding: $main-top-wsp 0 0 0;
-                    }
+                .text-conteiner {
+                    padding: $main-top-wsp 0 0 0;
                 }
             }
         }
     }
-
     .flying {
         animation: none;
         display: none;
     }
 }
+
+
 
 @media screen and (max-width:812px) {
     .site {
@@ -329,6 +329,7 @@ body.home {
 @media screen and (max-width:1200px) {
     .listing {
         grid-template-rows: repeat(3, 1fr);
+
         li {
             &:nth-child(1) {
                 grid-column: 1 / -1;

@@ -62,12 +62,11 @@ blockquote .author {
 }
 
 blockquote:before {
-
     display: block;
     position: absolute;
     top:-5rem; left:-1rem;
     content: '\201C';
-    color:rgba(coral, 0.3);
+    color:rgba(var(--highlight-red),var(--highlight-green),var(--highlight-blue), 0.3);
     font-size:15rem;
 }
 

@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css">
     <!-- <script src="{{ site.baseurl }}/scripts/scripts.js"></script> -->
 </head>
-<body class="{% if page.type %}{{ page.type }} {% endif %}{% if page.title %}{{ page.title | slugify }}{% else %}home{% endif %}">
+<body>
     <input type="checkbox" id="gender-main-toggle" name="gender-main-toggle">
-    <div class="site">
+    <div class="site {% if page.type %}{{ page.type }} {% endif %}{% if page.title %}{{ page.title | slugify }}{% else %}home{% endif %}">
         <header class="site-header">
             <div class="site-branding">
                 <p class="site-title"><a href="{{ site.baseurl }}/">My {{ site.title }}</a></p>

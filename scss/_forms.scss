@@ -1,5 +1,5 @@
 /*Styles for Regulas full width form*/
-body.login {
+.site.login {
     .site-gender {
         z-index:105;
     }
@@ -53,7 +53,7 @@ form {
         margin-bottom: $main-top-wsp;
         display: table;
         float: none;
-        margin: 0 auto;
+        margin: 0 auto $main-top-wsp auto;
     }
 
     p {
@@ -68,7 +68,6 @@ form {
         color: rgba(#333, 0.7);
         font-size: 0.9rem;
     }
-
     input {
         display: block;
         margin: 0.5rem 0;
@@ -79,9 +78,9 @@ form {
         background: rgba(#333, 0.1);
         color: black;
         border-bottom: $highlight-border;
-        border-top: 2px solid rgba(#ccc, 0.1);
-        border-left: 2px solid rgba(#ccc, 0.1);
-        border-right: 2px solid rgba(#ccc, 0.1);
+        border-top: $border-thick rgba(#ccc, 0.1);
+        border-left: $border-thick rgba(#ccc, 0.1);
+        border-right: $border-thick rgba(#ccc, 0.1);
 
         &:focus,
         &:active {
@@ -105,7 +104,6 @@ form {
     .form-inner {
         width: 100%;
         position: relative;
-        flex-direction: colum;
         margin: 0;
 
         .close-toggle {
@@ -120,15 +118,15 @@ form {
         form {
             padding: $main-top-wsp 0;
             margin: 0 auto;
-            background: linear-gradient(to top, rgba(255, 255, 255, 1) 0%, rgba(coral, 0.2) 100%);
+            background: linear-gradient(to top, rgba(255, 255, 255, 1) 0%, rgba(var(--highlight-red),var(--highlight-green),var(--highlight-blue), 0.2) 100%);
             flex: 1 0 100%;
 
             input[name="username"],
             input[name="email"] {
                 background: rgba(#333, 0.2);
-                border-top: 2px solid rgba(#bbb, 0.2);
-                border-left: 2px solid rgba(#bbb, 0.2);
-                border-right: 2px solid rgba(#bbb, 0.2);
+                border-top: $border-thick rgba(#bbb, 0.2);
+                border-left: $border-thick rgba(#bbb, 0.2);
+                border-right: $border-thick rgba(#bbb, 0.2);
 
                 &:focus,
                 &:active {
@@ -204,13 +202,20 @@ form {
 
             form {
                 margin: $main-top-wsp*2 0 0 0;
-                background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(coral, 0.2) 100%);
-
+                padding: 0 0 $main-top-wsp 0;
+                background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(var(--highlight-red),var(--highlight-green),var(--highlight-blue), 0.2) 100%);
+                position: relative;
                 fieldset {
                     background: white;
                     min-width: 50%;
-                    padding: 0 $main-top-wsp $main-top-wsp $main-top-wsp;
+                    padding: $main-top-wsp*2 $main-top-wsp $main-top-wsp $main-top-wsp;
 
+                    legend{
+                        position: absolute;
+                        top:0;
+                        left:50%;
+                        transform: translateX(-50%);
+                    }
                     input[type="text"],
                     input[type="email"],
                     input[type="password"] {
@@ -246,7 +251,6 @@ form {
     .form-wrapper {
         @at-root {
             .form-inner {
-
                 margin: $main-top-wsp*4 $main-top-wsp*3 $main-top-wsp*4 auto;
             }
         }
@@ -269,7 +273,7 @@ form {
 @media screen and (max-width:812px) {
 
     /*Regular form responsive*/
-    body.login {
+    .site.login {
         .main-nav {
             top: $main-top-wsp*2;
         }
@@ -292,7 +296,7 @@ form {
 @media screen and (max-width:375px) {
 
     /*Regular form responsive*/
-    body.login {
+    .site.login {
         .site-content {
             padding: 0;
         }

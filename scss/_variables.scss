@@ -3,12 +3,17 @@
     --font-size-lv2: 14px;
     --font-size-lv3: 16px;
     --font-size-lv4: 18px;
+    --highlight-red:255;
+    --highlight-green:127;
+    --highlight-blue:80;
     --highlight-color:coral;
     --main-animation: 0.2s ease;
 }
 
 $shadow:0 0 0.5rem 0 rgba(black, 0.3);
-$highlight-border:2px solid var(--highlight-color);
+$border-thick:2px solid;
+$border-thin:1px solid;
+$highlight-border:$border-thick var(--highlight-color);
 $opegue:1;
 $main-color:#333;
 $main-top-wsp:2rem;
