@@ -50,7 +50,7 @@
 
 /*
 /**Changing the main color depending on the gender **/
-#baby-name{
+.baby-name{
     &:after{
         display: inline;
         content: "Lilly";
@@ -65,7 +65,7 @@
     --highlight-green:142;
     --highlight-blue:204;
     --highlight-color:rgb(var(--highlight-red),var(--highlight-green),var(--highlight-blue));
-    #baby-name{
+    .baby-name{
         &:after{
             content: "Robin";
         }

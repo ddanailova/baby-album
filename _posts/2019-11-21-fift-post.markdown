@@ -16,14 +16,14 @@ date:   2018-11-21 09:44:41 +0200
 <section class="text-conteiner">
 <p>Sed turpis tincidunt id aliquet risus feugiat. Dui id ornare arcu odio. In eu mi bibendum neque egestas congue quisque egestas diam. Eget magna fermentum iaculis eu. Eleifend donec pretium vulputate sapien nec sagittis aliquam. Arcu cursus euismod quis viverra nibh. Dignissim convallis aenean et tortor. Eros donec ac odio tempor orci dapibus ultrices in iaculis. Amet est placerat in egestas. Tristique et egestas quis ipsum. Turpis egestas sed tempus urna et pharetra pharetra. Ut sem viverra aliquet eget sit. Mattis rhoncus urna neque viverra justo. Montes nascetur ridiculus mus mauris vitae ultricies leo. Nulla malesuada pellentesque elit eget gravida cum sociis. Elit eget gravida cum sociis natoque penatibus et magnis. Augue neque gravida in fermentum et sollicitudin ac. Sit amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus. Arcu dui vivamus arcu felis bibendum ut tristique. Sapien et ligula ullamcorper malesuada proin. Purus viverra accumsan in nisl nisi scelerisque. Ut eu sem integer vitae. Maecenas ultricies mi eget mauris pharetra et ultrices neque ornare. Volutpat diam ut venenatis tellus in metus vulputate eu scelerisque. A iaculis at erat pellentesque adipiscing commodo elit at imperdiet.</p>
   <div class="media">
-    <img src="{{ site.baseurl }}/images/image13.jpg" alt="Baby">
+    <img src="{{ site.baseurl }}/images/image13.jpg" alt="Baby in bed 1">
   </div>
   <blockquote>
     Rhoncus dolor purus non enimy.
-    <p class="author"><span id="baby-name"></span>'s Mom</p>
+    <p class="author"><span class="baby-name"></span>'s Mom</p>
 </blockquote>
   <div class="media">
-    <img src="{{ site.baseurl }}/images/image14.jpg" alt="Baby">
+    <img src="{{ site.baseurl }}/images/image14.jpg" alt="Baby in bed 2">
   </div>
 
 <p>Ut sem viverra aliquet eget sit. Mattis rhoncus urna neque viverra justo. Montes nascetur ridiculus mus mauris vitae ultricies leo. Nulla malesuada pellentesque elit eget gravida cum sociis. Elit eget gravida cum sociis natoque penatibus et magnis. Augue neque gravida in fermentum et sollicitudin ac. Sit amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus. Arcu dui vivamus arcu felis bibendum ut tristique. Sapien et ligula ullamcorper malesuada proin. Purus viverra accumsan in nisl nisi scelerisque. Ut eu sem integer vitae. Maecenas ultricies mi eget mauris pharetra et ultrices neque ornare. Volutpat diam ut venenatis tellus in metus vulputate eu scelerisque. A iaculis at erat pellentesque adipiscing commodo elit at imperdiet.</p>
